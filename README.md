@@ -1,4 +1,31 @@
 # Roboquest
 
 Documentation:
-https://1drv.ms/t/c/7865fb529fb23a15/Edhm0BYo5zZPhlQcdNU565QBviDR4kmKNZV1crN5Kzw_gg?e=tcRXua
+T1
+Cage (P0) down angle: 26 deg
+Cage (P0) max unload angle: 115 deg
+Hand (P1) down angle: 0 deg
+Hand (P1) max up angle: 60 deg
+
+T2
+Cage (P0) down angle: 78 deg
+Cage (P0) max unload angle: 180 deg
+Hand (P1) down angle:  37 deg
+Hand (P1) max up angle:  89 deg
+
+T3
+Cage (P0) down angle:  26 deg
+Cage (P0) max unload angle:  120 deg
+Hand (P1) down angle:  10 deg
+Hand (P1) max up angle:  60 deg
+
+M1
+Clawanglereset = 100
+Clawanglemax = 168
+Clawanglemin = 15
+Gripangleopen = 94
+Gripangleclose = 64
+Shooteranglemax = 111
+Shootermin = 17
+
+M2
