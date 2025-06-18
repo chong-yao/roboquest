@@ -1,0 +1,31 @@
+S/No,Variable Name,Initial Value,,Description
+
+1,clawAngle,clawAngleReset,,current claw angle
+
+2,clawAngleMax,150,,maximum claw angle
+
+3,clawAngleMin,10,,minimum claw angle
+
+4,clawAngleReset,90,,claw angle to reset to
+
+5,gripAngleClose,120,,grip close angle
+
+6,gripAngleOpen,90,,grip open angle
+
+7,movementSpeed,100,,vehicle movement speed
+
+8,rcData,"""""",,raw remote control data received
+
+9,rcCommand,100,,processed rcData into command
+
+10,shooterAngle,shooterAngleMin,,current shooter angle
+
+11,shooterAngleMax,70,,maximum shooter angle
+
+12,shooterAngleMin,0,,minimum shooter angle
+
+13,shootingSpeed,250,,current shooter shooting speed
+
+14,shootingState,0,,"current state of shooter"
+1 = shot
+0 = reset after shot

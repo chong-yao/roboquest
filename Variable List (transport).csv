@@ -1,0 +1,31 @@
+S/No,Variable Name,Initial Value,Description,value
+
+1,containerFilled,""EMPTY"","whether container is filled",""EMPTY"" = nothing on the platform | ""FILLED"" = somethng on the platform
+
+2,currentPath,"""SUPPLY""","which path the vehicle is on",""SUPPLY"" = doing supply task | ""RESCUE"" = doing rescue task
+
+3,doDetect,0,"whether camera should detect image",0 = do not detect | 1 = detect
+
+4,doTravel,"""OPENED""","whether vehicle should move",""OPENED"" = vehicle move | ""CLOSED"" = vehicle should not move
+
+5,doWait,0,"whether vehicle should wait",0 = vehicle should not wait | 1 = vehicle should wait
+
+6,imageDetection,-,store image capture from camera
+
+7,junctionCount,0,count the number of junctions to decide how to proceed
+
+8,lineFollowThreshold,150,threshold of the line sensor
+
+9,movementSpeed,105,movement speed of the vehicle
+
+10,servoP0DownAngle,79,rescue task servo down angle
+
+11,servoP0UpAngle,0,rescue task servo up angle
+
+12,servoP1DownAngle,103,supply task servo down angle
+
+13,servoP1UpAngle,50,supply task servo up angle
+
+14,vehicleCommand,"""""","to set when scanned the respective card", ""GO_RESCUE"" = camera scanned card to do rescue task | ""GO_COLLECT"" = camera scanned card to do supply task
+
+15,vehicleLocation,"""""","to set when scanned the respective card", ""SUPPLY_STATION"" = camera scanned the supply station stop card | ""RESCUE_STATION"" = camera scanned the rescue station stop card | ""RETURN"" = camera scanned the D alphabet card to return after waiting
