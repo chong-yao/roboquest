@@ -1,6 +1,5 @@
 # Roboquest
 
-Documentation:\
 T1\
 Cage (P0) down angle: 26 deg\
 Cage (P0) max unload angle: 115 deg\
