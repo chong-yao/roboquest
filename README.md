@@ -1,22 +1,22 @@
 # Roboquest
 
 T1\
-Cage (P0) down angle: 26 deg\
 Cage (P0) max unload angle: 115 deg\
-Hand (P1) down angle: 0 deg\
+Cage (P0) down angle: 26 deg\
 Hand (P1) max up angle: 60 deg\
+Hand (P1) down angle: 0 deg\
 \
 T2\
-Cage (P0) down angle: 78 deg\
 Cage (P0) max unload angle: 180 deg\
-Hand (P1) down angle:  37 deg\
+Cage (P0) down angle: 78 deg\
 Hand (P1) max up angle:  89 deg\
+Hand (P1) down angle:  37 deg\
 \
 T3\
-Cage (P0) down angle:  26 deg\
 Cage (P0) max unload angle:  120 deg\
-Hand (P1) down angle:  10 deg\
+Cage (P0) down angle:  26 deg\
 Hand (P1) max up angle:  60 deg\
+Hand (P1) down angle:  10 deg\
 \
 M1\
 Clawanglereset = 100\
