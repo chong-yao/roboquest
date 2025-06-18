@@ -28,3 +28,10 @@ Shooteranglemax = 111\
 Shootermin = 17\
 \
 M2\
+Clawanglereset = 100\
+Clawanglemax = 168\
+Clawanglemin = 15\
+Gripangleopen = 30\
+Gripangleclose = 0\
+Shooteranglemax = 111\
+Shootermin = 17\
