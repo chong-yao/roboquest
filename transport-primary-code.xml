@@ -80,54 +80,64 @@
                                           </shadow>
                                         </value>
                                         <next>
-                                          <block type="variables_set" id="qwFJ+bHo)sx#R@bv3yGs">
-                                            <field name="VAR">vehicleLocation</field>
+                                          <block type="variables_set" id="n:g#F7KZ)sDpRA6*.;}1">
+                                            <field name="VAR">correctSpeed</field>
                                             <value name="VALUE">
-                                              <shadow type="math_number" id="ZE~rt*w@S]-R07+nQLvv">
-                                                <field name="NUM">0</field>
+                                              <shadow type="math_number" id="j2#}Cwg%|EUl@U6tV#:i">
+                                                <field name="NUM">60</field>
                                               </shadow>
-                                              <block type="text" id="]pLM2p2V#)b+SaaoyN:w">
-                                                <field name="TEXT"></field>
-                                              </block>
                                             </value>
                                             <next>
-                                              <block type="variables_set" id="yKRflw._tG~yKWWpAA4A">
-                                                <field name="VAR">containerFilled</field>
+                                              <block type="variables_set" id="qwFJ+bHo)sx#R@bv3yGs">
+                                                <field name="VAR">vehicleLocation</field>
                                                 <value name="VALUE">
-                                                  <shadow type="math_number" id="2,i~3}US8aM_r|rU02(9">
+                                                  <shadow type="math_number" id="ZE~rt*w@S]-R07+nQLvv">
                                                     <field name="NUM">0</field>
                                                   </shadow>
-                                                  <block type="text" id="z=Rjo5J~(I/OaH_=ahZb">
-                                                    <field name="TEXT">EMPTY</field>
+                                                  <block type="text" id="]pLM2p2V#)b+SaaoyN:w">
+                                                    <field name="TEXT"></field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="variables_set" id="^[*tkS|3n!28rrif%A_f">
-                                                    <field name="VAR">vehicleCommand</field>
+                                                  <block type="variables_set" id="yKRflw._tG~yKWWpAA4A">
+                                                    <field name="VAR">containerFilled</field>
                                                     <value name="VALUE">
-                                                      <shadow type="math_number" id="t:H0rvNhRUX;{2%7Q!o~">
+                                                      <shadow type="math_number" id="2,i~3}US8aM_r|rU02(9">
                                                         <field name="NUM">0</field>
                                                       </shadow>
-                                                      <block type="text" id="CU,u/LS?kB*M)~I)!p0f">
-                                                        <field name="TEXT"></field>
+                                                      <block type="text" id="z=Rjo5J~(I/OaH_=ahZb">
+                                                        <field name="TEXT">EMPTY</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="variables_set" id="3L#n*MOY/C=WH!4u9M^f">
-                                                        <field name="VAR">lineFollowThreshold</field>
+                                                      <block type="variables_set" id="^[*tkS|3n!28rrif%A_f">
+                                                        <field name="VAR">vehicleCommand</field>
                                                         <value name="VALUE">
-                                                          <shadow type="math_number" id=".$4H[HBOz^Ff41gBto9r">
-                                                            <field name="NUM">250</field>
+                                                          <shadow type="math_number" id="t:H0rvNhRUX;{2%7Q!o~">
+                                                            <field name="NUM">0</field>
                                                           </shadow>
+                                                          <block type="text" id="CU,u/LS?kB*M)~I)!p0f">
+                                                            <field name="TEXT"></field>
+                                                          </block>
                                                         </value>
                                                         <next>
-                                                          <block type="variables_set" id="V!-Vcyk,aoGg)r0C@I/H">
-                                                            <field name="VAR">doDetect</field>
+                                                          <block type="variables_set" id="3L#n*MOY/C=WH!4u9M^f">
+                                                            <field name="VAR">lineFollowThreshold</field>
                                                             <value name="VALUE">
-                                                              <shadow type="math_number" id="T?)Q9~M1!t^UfY=|0w{B">
-                                                                <field name="NUM">0</field>
+                                                              <shadow type="math_number" id=".$4H[HBOz^Ff41gBto9r">
+                                                                <field name="NUM">250</field>
                                                               </shadow>
                                                             </value>
+                                                            <next>
+                                                              <block type="variables_set" id="V!-Vcyk,aoGg)r0C@I/H">
+                                                                <field name="VAR">doDetect</field>
+                                                                <value name="VALUE">
+                                                                  <shadow type="math_number" id="T?)Q9~M1!t^UfY=|0w{B">
+                                                                    <field name="NUM">0</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
@@ -670,6 +680,9 @@
           <shadow type="math_number" id="pZ6WxQ^n+(A;aDTr!Hs/">
             <field name="NUM">60</field>
           </shadow>
+          <block type="variables_get" id="i=~s38E#[Gf(zlKC2xI]">
+            <field name="VAR">correctSpeed</field>
+          </block>
         </value>
         <next>
           <block type="ai_motor_run" id="dj:g{Bq/H$S_L+8F)]$1">
@@ -679,6 +692,9 @@
               <shadow type="math_number" id="xGSU|OSyA@]U~St#.MH_">
                 <field name="NUM">60</field>
               </shadow>
+              <block type="variables_get" id="Rf*8/IcojYV8b]TVp_/Y">
+                <field name="VAR">correctSpeed</field>
+              </block>
             </value>
             <next>
               <block type="ai_motor_run" id="Y1@zy?#i4WK!35+n23#Y">
@@ -688,6 +704,9 @@
                   <shadow type="math_number" id="Fds~e:?R.cELUazf[F3%">
                     <field name="NUM">60</field>
                   </shadow>
+                  <block type="variables_get" id="~MS^;CMS/qWWxyQH-m-~">
+                    <field name="VAR">correctSpeed</field>
+                  </block>
                 </value>
                 <next>
                   <block type="ai_motor_run" id="a1|L=k{dA#mczmJvl~;e">
@@ -697,6 +716,9 @@
                       <shadow type="math_number" id="hBsc0Fk(Jaej;0;NY(~H">
                         <field name="NUM">60</field>
                       </shadow>
+                      <block type="variables_get" id="IFkoF:Li?c;Rl%cib/em">
+                        <field name="VAR">correctSpeed</field>
+                      </block>
                     </value>
                   </block>
                 </next>
@@ -717,6 +739,9 @@
           <shadow type="math_number" id="ZSoQnE:KI@oUWEllEl*+">
             <field name="NUM">60</field>
           </shadow>
+          <block type="variables_get" id="jEJdMex^rpb65P._yTCG">
+            <field name="VAR">correctSpeed</field>
+          </block>
         </value>
         <next>
           <block type="ai_motor_run" id="wm_9|tzVYQZb!bg86802">
@@ -726,6 +751,9 @@
               <shadow type="math_number" id="hes4}}V_1PG{)5dwO-?u">
                 <field name="NUM">60</field>
               </shadow>
+              <block type="variables_get" id="T.~T5I*(T0UB11z}]eBC">
+                <field name="VAR">correctSpeed</field>
+              </block>
             </value>
             <next>
               <block type="ai_motor_run" id="JVw{J/s0P^AhGWT9K]NE">
@@ -735,6 +763,9 @@
                   <shadow type="math_number" id="6}Kz.uAc1?bOTRZ/,!zP">
                     <field name="NUM">60</field>
                   </shadow>
+                  <block type="variables_get" id="-1dE(N%trgq^B~x9Vz{g">
+                    <field name="VAR">correctSpeed</field>
+                  </block>
                 </value>
                 <next>
                   <block type="ai_motor_run" id="]$/eVQwtrfg%Ycv8PYxP">
@@ -744,6 +775,9 @@
                       <shadow type="math_number" id=",C-4|N896{YP%5m490s+">
                         <field name="NUM">60</field>
                       </shadow>
+                      <block type="variables_get" id="Z9o-bgU{/5cp6Zvy1W`f">
+                        <field name="VAR">correctSpeed</field>
+                      </block>
                     </value>
                   </block>
                 </next>
