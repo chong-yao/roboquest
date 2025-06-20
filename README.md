@@ -31,7 +31,7 @@ M2\
 Clawanglereset = 100\
 Clawanglemax = 168\
 Clawanglemin = 15\
-Gripangleopen = 30\
-Gripangleclose = 0\
+Gripangleopen = 89\
+Gripangleclose = 60\
 Shooteranglemax = 111\
 Shootermin = 17\
