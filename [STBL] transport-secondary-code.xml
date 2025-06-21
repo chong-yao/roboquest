@@ -958,7 +958,7 @@
               <block type="time_delay" id="V[l_HZ07{;WM%~2*Xkk/">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="8UdO|-$`-!M)h$S2Wg6f">
-                    <field name="NUM">200</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1276,7 +1276,7 @@
               <block type="time_delay" id="Q2_Uc_57]i5X)o*`qI,P">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="TZKIUiMC*7]dF;BwEEwl">
-                    <field name="NUM">200</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1342,7 +1342,7 @@
               <block type="time_delay" id="*Ifdw9Wzv6nch3uGXLAy">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="U[3ow%!rz0@qY~0u2QzZ">
-                    <field name="NUM">200</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1521,22 +1521,27 @@
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="time_delay" id="qgxliH(g1=bU+4*{M!L5">
-                                                    <value name="DELAY_TIME_MILI">
-                                                      <block type="math_number" id="!:lH{Oi^)~y$;%C@CdC+">
-                                                        <field name="NUM">100</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="procedures_callnoreturn" id="!%Bxk|USY;jM08mC/8(5">
+                                                    <mutation name="stopMoving"></mutation>
                                                     <next>
-                                                      <block type="procedures_callnoreturn" id="Aown3~z}JhboAg:B=tue">
-                                                        <mutation name="moveBack"></mutation>
+                                                      <block type="time_delay" id="qgxliH(g1=bU+4*{M!L5">
+                                                        <value name="DELAY_TIME_MILI">
+                                                          <block type="math_number" id="!:lH{Oi^)~y$;%C@CdC+">
+                                                            <field name="NUM">100</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="time_delay" id=";6`;qCiHw!o7{`;IL|{X">
-                                                            <value name="DELAY_TIME_MILI">
-                                                              <block type="math_number" id="dR;hBE5smWL3OiGO%LV!">
-                                                                <field name="NUM">1000</field>
+                                                          <block type="procedures_callnoreturn" id="Aown3~z}JhboAg:B=tue">
+                                                            <mutation name="moveBack"></mutation>
+                                                            <next>
+                                                              <block type="time_delay" id=";6`;qCiHw!o7{`;IL|{X">
+                                                                <value name="DELAY_TIME_MILI">
+                                                                  <block type="math_number" id="dR;hBE5smWL3OiGO%LV!">
+                                                                    <field name="NUM">1000</field>
+                                                                  </block>
+                                                                </value>
                                                               </block>
-                                                            </value>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
@@ -1558,7 +1563,7 @@
                                       <block type="time_delay" id="$5Am3PbrAmdvn6Z4..Ad">
                                         <value name="DELAY_TIME_MILI">
                                           <block type="math_number" id="CH/w5sy,4m!alEvgKT%x">
-                                            <field name="NUM">300</field>
+                                            <field name="NUM">400</field>
                                           </block>
                                         </value>
                                         <next>
@@ -1633,7 +1638,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="#-{7uSoZQ:qS|*~}Br`y" x="0" y="5504">
+  <block type="procedures_defnoreturn" id="#-{7uSoZQ:qS|*~}Br`y" x="0" y="5529">
     <field name="NAME">doObstacle</field>
     <statement name="STACK">
       <block type="controls_if" id="OqlLTTbgX$n0P,HZ15%T">
@@ -1680,7 +1685,7 @@
               <block type="time_delay" id="|r*h!/#K|vpB#FRqI6Fv">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="0rF[mM8dQbKVvd~#Zra;">
-                    <field name="NUM">200</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1822,7 +1827,7 @@
               <block type="time_delay" id="~9.e]i.k*/g5Bbxt#]Q|">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="Ry)zN@/vHWj+|K]FH=Yh">
-                    <field name="NUM">200</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1869,7 +1874,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="6292">
+  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="6317">
     <field name="NAME">doDetection</field>
     <statement name="STACK">
       <block type="variables_set" id="R3Ldww6|n,3l$)d3VS)d">
@@ -2956,7 +2961,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9112">
+  <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9137">
     <mutation name="initVariables"></mutation>
     <next>
       <block type="procedures_callnoreturn" id="+wX=JZ-5!^jEV4e[x9Kc">
