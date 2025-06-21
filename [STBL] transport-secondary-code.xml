@@ -968,7 +968,7 @@
                       <block type="time_delay" id="5t(f:_KGZ}K#u}sdAF,3">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="5pP[-,iGL]2[.[w`$W(V">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1286,7 +1286,7 @@
                       <block type="time_delay" id=":2E4AVfk9Lj^}DB)IiWe">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="bO+Rl3?z!X_:*,N,q@vA">
-                            <field name="NUM">500</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1352,7 +1352,7 @@
                       <block type="time_delay" id="03sF95RmMw2eg)RGT0lK">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="SPThQqe0o9EWY9X1iAMM">
-                            <field name="NUM">1500</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1690,7 +1690,7 @@
                       <block type="time_delay" id="/S^4+}gYwaUCtGdR48Rv">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="Xd_^p-ubM{%+iOX@/m}o">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1832,7 +1832,7 @@
                       <block type="time_delay" id="An)Yh3K:e^y:Bl^wlSRb">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="h2#VkowXas+hxE|EE3o3">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
