@@ -1,138 +1,138 @@
 <xml xmlns="http://www.w3.org/1999/xhtml" type="IoT">
-  <block type="procedures_defnoreturn" id="-tDH.[FZLQ;n%5UBx;Ti" x="0" y="0">
+  <block type="procedures_defnoreturn" id="Jhd:nv}b0@91AUi1GM/8" x="0" y="0">
     <field name="NAME">initVariables</field>
     <statement name="STACK">
-      <block type="variables_set" id="CYoT6-,BpEnq[_*jlQJI">
+      <block type="variables_set" id="5Ag7H~0Kyo/QwFP640j$">
         <field name="VAR">servoP0UnloadAngle</field>
         <value name="VALUE">
-          <shadow type="math_number" id="iO*c+sUAe_9OC_S5kep.">
-            <field name="NUM">119</field>
+          <shadow type="math_number" id="I6dljKwLOfj73$q+Ph~s">
+            <field name="NUM">115</field>
           </shadow>
         </value>
         <next>
-          <block type="variables_set" id="Cs`qc_Ha^#jE%TndTQrM">
+          <block type="variables_set" id="BocI$xah]B%wb=x#yQys">
             <field name="VAR">servoP0DownAngle</field>
             <value name="VALUE">
-              <shadow type="math_number" id="d_dxh#qX~[@cSCLP%aA]">
-                <field name="NUM">23</field>
+              <shadow type="math_number" id="j/a@N(0l;YKXOxCkld7E">
+                <field name="NUM">26</field>
               </shadow>
             </value>
             <next>
-              <block type="variables_set" id="-i!r8;Aok=mqW#`jUUi@">
+              <block type="variables_set" id="1E57!{pe$Uz|)i9=mjb+">
                 <field name="VAR">servoP1UpAngle</field>
                 <value name="VALUE">
-                  <shadow type="math_number" id="gtbBt1UH3SURj/0BkB.a">
-                    <field name="NUM">45</field>
+                  <shadow type="math_number" id="GJ`.tQEhWjPNWkcJ~KHU">
+                    <field name="NUM">60</field>
                   </shadow>
                 </value>
                 <next>
-                  <block type="variables_set" id="T*DF%2]^{DnBHa$3DNzi">
+                  <block type="variables_set" id="!~e8U]2n*)[{nyV}aW5[">
                     <field name="VAR">servoP1DownAngle</field>
                     <value name="VALUE">
-                      <shadow type="math_number" id="spt{(J%}@7d!,2}O`+z+">
+                      <shadow type="math_number" id="2G@TC(s?N,XfLq3;R0z3">
                         <field name="NUM">0</field>
                       </shadow>
                     </value>
                     <next>
-                      <block type="variables_set" id="{NpJ8]nCPewIMWjg7(Yh">
+                      <block type="variables_set" id="l1P`C,=A]ttvIfx]qYK[">
                         <field name="VAR">doWait</field>
                         <value name="VALUE">
-                          <shadow type="math_number" id="Rd+!{DUmbcx)@x+,4eIX">
+                          <shadow type="math_number" id="8lKA:$sLI[dTkWR7bQ#4">
                             <field name="NUM">0</field>
                           </shadow>
                         </value>
                         <next>
-                          <block type="variables_set" id="/Lhv@rQy(0kN_)*S3aKu">
+                          <block type="variables_set" id="K=+Lp63CWl{Z~rya-))p">
                             <field name="VAR">doTravel</field>
                             <value name="VALUE">
-                              <shadow type="math_number" id="Ui/RS9P]E+J^^BgF4i$Z">
+                              <shadow type="math_number" id=".M4?O%BpT`_FV4IG9NSY">
                                 <field name="NUM">0</field>
                               </shadow>
-                              <block type="text" id="B#=UQ(ld$-gVxN,q3D${">
+                              <block type="text" id="5D{I$mNvGy?vj{=D]j]x">
                                 <field name="TEXT">OPENED</field>
                               </block>
                             </value>
                             <next>
-                              <block type="variables_set" id="$DCRYj}x^mJP)RUY]7kz">
+                              <block type="variables_set" id="lr=-sKmM{Ac9dgZTO2:2">
                                 <field name="VAR">currentPath</field>
                                 <value name="VALUE">
-                                  <shadow type="math_number" id="$u_sVh94DNg)ZHp`1d9t">
+                                  <shadow type="math_number" id="|q#*C.t*;?|YU=+2?2uW">
                                     <field name="NUM">0</field>
                                   </shadow>
-                                  <block type="text" id="?$b=NNl?d^eM5`wPgA^]">
+                                  <block type="text" id="~UsCpB[NE(-R!^{w0s;?">
                                     <field name="TEXT">SUPPLY</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="variables_set" id="uI$]qEwT8OHg[f{Bz:W*">
+                                  <block type="variables_set" id="CK(!ufxrP8JW(?8SR/5!">
                                     <field name="VAR">junctionCount</field>
                                     <value name="VALUE">
-                                      <shadow type="math_number" id="$!6[o#FG?~C[RoF;qSS`">
+                                      <shadow type="math_number" id="8{*@.g(F-V(C(e:KgMs/">
                                         <field name="NUM">0</field>
                                       </shadow>
                                     </value>
                                     <next>
-                                      <block type="variables_set" id="8rj`9Y].3X617+g9S/0i">
+                                      <block type="variables_set" id="%rZ%3]O0o[FJ*QoUiqc;">
                                         <field name="VAR">movementSpeed</field>
                                         <value name="VALUE">
-                                          <shadow type="math_number" id="zn,)OGIT=P3_4K=-/2If">
+                                          <shadow type="math_number" id="3b+5v?bx%u^~#?liJ57z">
                                             <field name="NUM">125</field>
                                           </shadow>
                                         </value>
                                         <next>
-                                          <block type="variables_set" id="n:g#F7KZ)sDpRA6*.;}1">
-                                            <field name="VAR">correctSpeed</field>
+                                          <block type="variables_set" id=")nB|q7Z[RQyquuRqyD2@">
+                                            <field name="VAR">correctionSpeed</field>
                                             <value name="VALUE">
-                                              <shadow type="math_number" id="j2#}Cwg%|EUl@U6tV#:i">
+                                              <shadow type="math_number" id="8^%lPGBwn(*rXPC0pv0:">
                                                 <field name="NUM">60</field>
                                               </shadow>
                                             </value>
                                             <next>
-                                              <block type="variables_set" id="qwFJ+bHo)sx#R@bv3yGs">
+                                              <block type="variables_set" id="~3F]3{Se%;zVIBc|FLT4">
                                                 <field name="VAR">vehicleLocation</field>
                                                 <value name="VALUE">
-                                                  <shadow type="math_number" id="ZE~rt*w@S]-R07+nQLvv">
+                                                  <shadow type="math_number" id="C]vB(dUc#N5f,%VjAU#:">
                                                     <field name="NUM">0</field>
                                                   </shadow>
-                                                  <block type="text" id="]pLM2p2V#)b+SaaoyN:w">
+                                                  <block type="text" id="7DqVP!y3[BFCkA5g]M`G">
                                                     <field name="TEXT"></field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="variables_set" id="yKRflw._tG~yKWWpAA4A">
+                                                  <block type="variables_set" id="?-+s,g1zra~`L;!p/_j`">
                                                     <field name="VAR">containerFilled</field>
                                                     <value name="VALUE">
-                                                      <shadow type="math_number" id="2,i~3}US8aM_r|rU02(9">
+                                                      <shadow type="math_number" id=",ddOBWtPfqQ|K+3O_=yd">
                                                         <field name="NUM">0</field>
                                                       </shadow>
-                                                      <block type="text" id="z=Rjo5J~(I/OaH_=ahZb">
+                                                      <block type="text" id="8e-qXuTy/35/,Mpw0g;0">
                                                         <field name="TEXT">EMPTY</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="variables_set" id="^[*tkS|3n!28rrif%A_f">
+                                                      <block type="variables_set" id="v6UD-ozPm8w_Z!?u+YoM">
                                                         <field name="VAR">vehicleCommand</field>
                                                         <value name="VALUE">
-                                                          <shadow type="math_number" id="t:H0rvNhRUX;{2%7Q!o~">
+                                                          <shadow type="math_number" id="rO1O}g/oo*)0JYyXEVGk">
                                                             <field name="NUM">0</field>
                                                           </shadow>
-                                                          <block type="text" id="CU,u/LS?kB*M)~I)!p0f">
+                                                          <block type="text" id="fo}gUDw:*W*O^iFXHy.-">
                                                             <field name="TEXT"></field>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="variables_set" id="3L#n*MOY/C=WH!4u9M^f">
+                                                          <block type="variables_set" id="rZCDRkO-XBT}*#()?#jB">
                                                             <field name="VAR">lineFollowThreshold</field>
                                                             <value name="VALUE">
-                                                              <shadow type="math_number" id=".$4H[HBOz^Ff41gBto9r">
+                                                              <shadow type="math_number" id="tCN+ptU$=?vj/%;9J5J2">
                                                                 <field name="NUM">250</field>
                                                               </shadow>
                                                             </value>
                                                             <next>
-                                                              <block type="variables_set" id="V!-Vcyk,aoGg)r0C@I/H">
+                                                              <block type="variables_set" id="Kt.Dja+QZ5X`VN,D;jmH">
                                                                 <field name="VAR">doDetect</field>
                                                                 <value name="VALUE">
-                                                                  <shadow type="math_number" id="T?)Q9~M1!t^UfY=|0w{B">
+                                                                  <shadow type="math_number" id="EJG`q]s/qMZ{fGedMyIA">
                                                                     <field name="NUM">0</field>
                                                                   </shadow>
                                                                 </value>
@@ -167,76 +167,51 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="Oiotb^Eo@Bk!^xGj:NWM" x="0" y="457">
-    <field name="NAME">initMotors</field>
+  <block type="procedures_defnoreturn" id="SO^Hfu@#,},c4xM^:.;]" x="0" y="457">
+    <field name="NAME">stopMoving</field>
     <statement name="STACK">
-      <block type="ai_motor_setup" id="+8HFj3C$OV|wy^mwOArL">
+      <block type="ai_motor_run" id="a*L$6QhER^o(:s-ANCje">
+        <field name="motor_type">C</field>
+        <field name="direction">pos</field>
+        <value name="speed">
+          <shadow type="math_number" id="zJ0vF/!?Rmx@u2w/kw7]">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
         <next>
-          <block type="ai_motor_run" id="KOrcE1dPn9MrP/[I^5fh">
-            <field name="motor_type">C</field>
+          <block type="ai_motor_run" id="#M?},7XU={Q_R[hzy~9C">
+            <field name="motor_type">D</field>
             <field name="direction">pos</field>
             <value name="speed">
-              <shadow type="math_number" id=")a6e~udzi(B959iio+;m">
+              <shadow type="math_number" id="HsSPbK0_/Eb]*vcjf0ro">
                 <field name="NUM">0</field>
               </shadow>
             </value>
             <next>
-              <block type="ai_motor_run" id="$(n_{YAcH?m0Q3W9)OEP">
-                <field name="motor_type">D</field>
+              <block type="ai_motor_run" id="nKPNuYk)?L_4e}wU)2{A">
+                <field name="motor_type">E</field>
                 <field name="direction">pos</field>
                 <value name="speed">
-                  <shadow type="math_number" id="^|)ArN;itQ9-R-C9VGd7">
+                  <shadow type="math_number" id="UG1U|,2jG=m:XohG#,bg">
                     <field name="NUM">0</field>
                   </shadow>
                 </value>
                 <next>
-                  <block type="ai_motor_run" id="{?TpO/aH#AzND83^Wkij">
-                    <field name="motor_type">E</field>
+                  <block type="ai_motor_run" id=",/J$mfjM!!1Z@$+/ItbW">
+                    <field name="motor_type">F</field>
                     <field name="direction">pos</field>
                     <value name="speed">
-                      <shadow type="math_number" id="s1@3C^o41H)_`T!0+3Ny">
+                      <shadow type="math_number" id="_,ifiY/|(`KLz?IK%b)A">
                         <field name="NUM">0</field>
                       </shadow>
                     </value>
                     <next>
-                      <block type="ai_motor_run" id="TVpp2o(chxOhHB?)^_i-">
-                        <field name="motor_type">F</field>
-                        <field name="direction">pos</field>
-                        <value name="speed">
-                          <shadow type="math_number" id="V2_2k]IE%#$Y)Xujcn*7">
-                            <field name="NUM">0</field>
-                          </shadow>
-                        </value>
-                        <next>
-                          <block type="extension_servo_setup_on_ai" id="JZ?|~I^x/?|d|xwk);24">
-                            <next>
-                              <block type="extension_servo_write_on_ai" id="K^p[c6h{FL/Mg5=.WVb3">
-                                <field name="gpio">P0</field>
-                                <value name="degree">
-                                  <shadow type="math_number" id="#0eK$ncw/7l]GK?0ezH@">
-                                    <field name="NUM">0</field>
-                                  </shadow>
-                                  <block type="variables_get" id="0uf#4O3?/0GVlP=K{lqD">
-                                    <field name="VAR">servoP0DownAngle</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="extension_servo_write_on_ai" id="xAfKnvaa#?kx=V5:qAuT">
-                                    <field name="gpio">P1</field>
-                                    <value name="degree">
-                                      <shadow type="math_number" id="!_y%nu,4b-5-PT[V@C!r">
-                                        <field name="NUM">103</field>
-                                      </shadow>
-                                      <block type="variables_get" id="A!NJx-AI[:4=x}G[c+X-">
-                                        <field name="VAR">servoP1UpAngle</field>
-                                      </block>
-                                    </value>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
+                      <block type="time_delay" id="6J{{4]_;*H`1}^8]YhNE">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="5@gxfTSX?IBAEU;^^{xQ">
+                            <field name="NUM">25</field>
                           </block>
-                        </next>
+                        </value>
                       </block>
                     </next>
                   </block>
@@ -248,7 +223,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="KtW)lU5S*q6X^$t)($G6" x="0" y="896">
+  <block type="procedures_defnoreturn" id="KtW)lU5S*q6X^$t)($G6" x="0" y="709">
     <field name="NAME">moveFront</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="b}/uQ:;cDjLQz(wNdxnN">
@@ -307,54 +282,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="SO^Hfu@#,},c4xM^:.;]" x="0" y="1111">
-    <field name="NAME">stopMoving</field>
-    <statement name="STACK">
-      <block type="ai_motor_run" id="a*L$6QhER^o(:s-ANCje">
-        <field name="motor_type">C</field>
-        <field name="direction">pos</field>
-        <value name="speed">
-          <shadow type="math_number" id="zJ0vF/!?Rmx@u2w/kw7]">
-            <field name="NUM">0</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="ai_motor_run" id="#M?},7XU={Q_R[hzy~9C">
-            <field name="motor_type">D</field>
-            <field name="direction">pos</field>
-            <value name="speed">
-              <shadow type="math_number" id="HsSPbK0_/Eb]*vcjf0ro">
-                <field name="NUM">0</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="ai_motor_run" id="nKPNuYk)?L_4e}wU)2{A">
-                <field name="motor_type">E</field>
-                <field name="direction">pos</field>
-                <value name="speed">
-                  <shadow type="math_number" id="UG1U|,2jG=m:XohG#,bg">
-                    <field name="NUM">0</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="ai_motor_run" id=",/J$mfjM!!1Z@$+/ItbW">
-                    <field name="motor_type">F</field>
-                    <field name="direction">pos</field>
-                    <value name="speed">
-                      <shadow type="math_number" id="_,ifiY/|(`KLz?IK%b)A">
-                        <field name="NUM">0</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-  <block type="procedures_defnoreturn" id="$-nV^--AL|{n:%eXb_6P" x="0" y="1326">
+  <block type="procedures_defnoreturn" id="$-nV^--AL|{n:%eXb_6P" x="0" y="924">
     <field name="NAME">moveBack</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="?2BC3H=rH=I[mbc746(^">
@@ -413,7 +341,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="aqzve%j)_}F3CfsH6W2Q" x="0" y="1541">
+  <block type="procedures_defnoreturn" id="aqzve%j)_}F3CfsH6W2Q" x="0" y="1139">
     <field name="NAME">turnLeft</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="cJxc5p)xr;9h^D|?NF#Y">
@@ -524,7 +452,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="E$gW=)qU#C(Ow|Zgt~+b" x="0" y="1800">
+  <block type="procedures_defnoreturn" id="E$gW=)qU#C(Ow|Zgt~+b" x="0" y="1398">
     <field name="NAME">turnRight</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="^hQ/*S.T)e.dt_iRbL(g">
@@ -635,54 +563,54 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="M9`L^VgV~=HX]}-it{){" x="0" y="2059">
+  <block type="procedures_defnoreturn" id=":lKIwv*rP90Jm|YbWkGB" x="0" y="1657">
     <field name="NAME">correctLeft</field>
     <statement name="STACK">
-      <block type="ai_motor_run" id="m#W4P%Z8P2=Zq+9*7ffQ">
+      <block type="ai_motor_run" id="Oa@kwkD*JFu=]M|hFI@9">
         <field name="motor_type">C</field>
         <field name="direction">neg</field>
         <value name="speed">
-          <shadow type="math_number" id="pZ6WxQ^n+(A;aDTr!Hs/">
+          <shadow type="math_number" id="`L$5Q,fhJoAX%,E^sSw`">
             <field name="NUM">60</field>
           </shadow>
-          <block type="variables_get" id="i=~s38E#[Gf(zlKC2xI]">
-            <field name="VAR">correctSpeed</field>
+          <block type="variables_get" id="h}5hKXb;`{=*R`b94aIb">
+            <field name="VAR">correctionSpeed</field>
           </block>
         </value>
         <next>
-          <block type="ai_motor_run" id="dj:g{Bq/H$S_L+8F)]$1">
+          <block type="ai_motor_run" id="xdt?S2s4VVc112{qx{Bd">
             <field name="motor_type">D</field>
             <field name="direction">neg</field>
             <value name="speed">
-              <shadow type="math_number" id="xGSU|OSyA@]U~St#.MH_">
+              <shadow type="math_number" id="oSO?0_zp%j9oqt+%~(F^">
                 <field name="NUM">60</field>
               </shadow>
-              <block type="variables_get" id="Rf*8/IcojYV8b]TVp_/Y">
-                <field name="VAR">correctSpeed</field>
+              <block type="variables_get" id="wqy9EVlXMv1dLmey6)_c">
+                <field name="VAR">correctionSpeed</field>
               </block>
             </value>
             <next>
-              <block type="ai_motor_run" id="Y1@zy?#i4WK!35+n23#Y">
+              <block type="ai_motor_run" id="xT|hh5o-N[3Xh5Fe/k%P">
                 <field name="motor_type">E</field>
                 <field name="direction">pos</field>
                 <value name="speed">
-                  <shadow type="math_number" id="Fds~e:?R.cELUazf[F3%">
+                  <shadow type="math_number" id="rhayG47Im.;5,fm|.k0y">
                     <field name="NUM">60</field>
                   </shadow>
-                  <block type="variables_get" id="~MS^;CMS/qWWxyQH-m-~">
-                    <field name="VAR">correctSpeed</field>
+                  <block type="variables_get" id="NhCo%ed?slT@}:creyLn">
+                    <field name="VAR">correctionSpeed</field>
                   </block>
                 </value>
                 <next>
-                  <block type="ai_motor_run" id="a1|L=k{dA#mczmJvl~;e">
+                  <block type="ai_motor_run" id="t/79H7,jE#6_cdVLwx8v">
                     <field name="motor_type">F</field>
                     <field name="direction">pos</field>
                     <value name="speed">
-                      <shadow type="math_number" id="hBsc0Fk(Jaej;0;NY(~H">
+                      <shadow type="math_number" id="#L-FER(LDy~M7PfB[@]W">
                         <field name="NUM">60</field>
                       </shadow>
-                      <block type="variables_get" id="IFkoF:Li?c;Rl%cib/em">
-                        <field name="VAR">correctSpeed</field>
+                      <block type="variables_get" id="+h:d|bjX(.=Gm68G$%8a">
+                        <field name="VAR">correctionSpeed</field>
                       </block>
                     </value>
                   </block>
@@ -694,54 +622,54 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")yy),86`7A,n7o^Jw`^[" x="0" y="2274">
+  <block type="procedures_defnoreturn" id=":#0;n}@gzg56ZR17^[m9" x="0" y="1872">
     <field name="NAME">correctRight</field>
     <statement name="STACK">
-      <block type="ai_motor_run" id="4$$*%S0CvX@XamUiqcYK">
+      <block type="ai_motor_run" id="WX@%ZUZq~XF.g%2SmQ|(">
         <field name="motor_type">C</field>
         <field name="direction">pos</field>
         <value name="speed">
-          <shadow type="math_number" id="ZSoQnE:KI@oUWEllEl*+">
+          <shadow type="math_number" id="XqQ=bh;Xr!zz0nyD]*9J">
             <field name="NUM">60</field>
           </shadow>
-          <block type="variables_get" id="jEJdMex^rpb65P._yTCG">
-            <field name="VAR">correctSpeed</field>
+          <block type="variables_get" id="q)@yoAx4_pzR4#x!pW=e">
+            <field name="VAR">correctionSpeed</field>
           </block>
         </value>
         <next>
-          <block type="ai_motor_run" id="wm_9|tzVYQZb!bg86802">
+          <block type="ai_motor_run" id="IcfY1x9m{[?An]z@60QF">
             <field name="motor_type">D</field>
             <field name="direction">pos</field>
             <value name="speed">
-              <shadow type="math_number" id="hes4}}V_1PG{)5dwO-?u">
+              <shadow type="math_number" id="mn7ihsv[|,?%4GoN;MXq">
                 <field name="NUM">60</field>
               </shadow>
-              <block type="variables_get" id="T.~T5I*(T0UB11z}]eBC">
-                <field name="VAR">correctSpeed</field>
+              <block type="variables_get" id=",g|btku1}qqDLs:+t6{.">
+                <field name="VAR">correctionSpeed</field>
               </block>
             </value>
             <next>
-              <block type="ai_motor_run" id="JVw{J/s0P^AhGWT9K]NE">
+              <block type="ai_motor_run" id="NDWdR8+wB(GD%N.sSa*h">
                 <field name="motor_type">E</field>
                 <field name="direction">neg</field>
                 <value name="speed">
-                  <shadow type="math_number" id="6}Kz.uAc1?bOTRZ/,!zP">
+                  <shadow type="math_number" id="/]1Ow3ngti;6AvV?OTfD">
                     <field name="NUM">60</field>
                   </shadow>
-                  <block type="variables_get" id="-1dE(N%trgq^B~x9Vz{g">
-                    <field name="VAR">correctSpeed</field>
+                  <block type="variables_get" id="8Ra,!U(P##|T{H~T:N1_">
+                    <field name="VAR">correctionSpeed</field>
                   </block>
                 </value>
                 <next>
-                  <block type="ai_motor_run" id="]$/eVQwtrfg%Ycv8PYxP">
+                  <block type="ai_motor_run" id="eK|3RS-]#)jKZMX{_G8J">
                     <field name="motor_type">F</field>
                     <field name="direction">neg</field>
                     <value name="speed">
-                      <shadow type="math_number" id=",C-4|N896{YP%5m490s+">
+                      <shadow type="math_number" id="gt?FIPE`A[q]lsD#dzJZ">
                         <field name="NUM">60</field>
                       </shadow>
-                      <block type="variables_get" id="Z9o-bgU{/5cp6Zvy1W`f">
-                        <field name="VAR">correctSpeed</field>
+                      <block type="variables_get" id="7P@mFF{x!leVczs*]A]L">
+                        <field name="VAR">correctionSpeed</field>
                       </block>
                     </value>
                   </block>
@@ -753,53 +681,53 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="qK~[}pbIv;[JHe]tTXI8" x="0" y="2489">
+  <block type="procedures_defnoreturn" id="UW[yt]?Ya(4x!FR]#f)B" x="0" y="2087">
     <field name="NAME">shiftLeft</field>
     <statement name="STACK">
-      <block type="ai_motor_run" id="?d=(-e{^NI%fb*0ULy(i">
+      <block type="ai_motor_run" id="cim]TX0[mJ7vO?~FoPQk">
         <field name="motor_type">C</field>
         <field name="direction">neg</field>
         <value name="speed">
-          <shadow type="math_number" id="bh`{RohvQ*NiBN~F79xv">
+          <shadow type="math_number" id="`L$5Q,fhJoAX%,E^sSw`">
             <field name="NUM">100</field>
           </shadow>
-          <block type="variables_get" id="B54N:!rikSeaSM6cFj1p">
+          <block type="variables_get" id="muCwt(lc//V0?C00siM*">
             <field name="VAR">movementSpeed</field>
           </block>
         </value>
         <next>
-          <block type="ai_motor_run" id="E(Q)~]bzUg:7:H~elG#[">
+          <block type="ai_motor_run" id="p1{v^`2ah#,{lW9W|PYE">
             <field name="motor_type">D</field>
             <field name="direction">pos</field>
             <value name="speed">
-              <shadow type="math_number" id="d2LO:yb@c7Lw_PLJ[!?*">
+              <shadow type="math_number" id="oSO?0_zp%j9oqt+%~(F^">
                 <field name="NUM">100</field>
               </shadow>
-              <block type="variables_get" id="ARv08]E_4hb_eM:qg+T=">
+              <block type="variables_get" id="JjkVFxag;H8wcHs-@6jg">
                 <field name="VAR">movementSpeed</field>
               </block>
             </value>
             <next>
-              <block type="ai_motor_run" id=";U--$wEk2Jw/!VXTzWwP">
+              <block type="ai_motor_run" id="x.#fphY,@v%[o5XvFg^#">
                 <field name="motor_type">E</field>
                 <field name="direction">neg</field>
                 <value name="speed">
-                  <shadow type="math_number" id="np[;FBGnpF$}#`q0:Bl_">
+                  <shadow type="math_number" id="rhayG47Im.;5,fm|.k0y">
                     <field name="NUM">100</field>
                   </shadow>
-                  <block type="variables_get" id="~5+eTBswN4W7m#OF?HwQ">
+                  <block type="variables_get" id="5nvmW*OUl(jv{,)CX2|}">
                     <field name="VAR">movementSpeed</field>
                   </block>
                 </value>
                 <next>
-                  <block type="ai_motor_run" id="Uc}|9[t7,;gz,sT*]mVi">
+                  <block type="ai_motor_run" id="]QP?]d/?.]wNBGz/Z.%C">
                     <field name="motor_type">F</field>
                     <field name="direction">pos</field>
                     <value name="speed">
-                      <shadow type="math_number" id="iL4gkTUkHYu4wr!3wFgd">
+                      <shadow type="math_number" id="#L-FER(LDy~M7PfB[@]W">
                         <field name="NUM">100</field>
                       </shadow>
-                      <block type="variables_get" id="5pg[K=;4di4ph=a|_PvP">
+                      <block type="variables_get" id=",v%fBoz0(co9l9Dgn_NG">
                         <field name="VAR">movementSpeed</field>
                       </block>
                     </value>
@@ -812,7 +740,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="x_^wTQg^PCL22:%]U7s!" x="0" y="2704">
+  <block type="procedures_defnoreturn" id="x_^wTQg^PCL22:%]U7s!" x="0" y="2302">
     <field name="NAME">shiftRight</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="3$6kCbNZI]SY6/UcP_Pb">
@@ -871,7 +799,49 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="~s5u{js`jy~wqabC5`f*" x="0" y="2919">
+  <block type="procedures_defnoreturn" id="jymbiDxIADt``1(#7a)e" x="0" y="2517">
+    <field name="NAME">initMotors</field>
+    <statement name="STACK">
+      <block type="ai_motor_setup" id="+8HFj3C$OV|wy^mwOArL">
+        <next>
+          <block type="extension_servo_setup_on_ai" id="JZ?|~I^x/?|d|xwk);24">
+            <next>
+              <block type="procedures_callnoreturn" id="%riQBWphUAoUV]iqPAjb">
+                <mutation name="stopMoving"></mutation>
+                <next>
+                  <block type="extension_servo_write_on_ai" id="p~u6CA4h:woa3ou|HK9U">
+                    <field name="gpio">P0</field>
+                    <value name="degree">
+                      <shadow type="math_number" id="#0eK$ncw/7l]GK?0ezH@">
+                        <field name="NUM">0</field>
+                      </shadow>
+                      <block type="variables_get" id="A5dP(ou.Zs/kH)9UZ?hz">
+                        <field name="VAR">servoP0DownAngle</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="extension_servo_write_on_ai" id="XPmAQmw]{4Pp+[WH^L*K">
+                        <field name="gpio">P1</field>
+                        <value name="degree">
+                          <shadow type="math_number" id="#0eK$ncw/7l]GK?0ezH@">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="variables_get" id="r@TZmOz2~2jfJ~2Z@K=n">
+                            <field name="VAR">servoP1UpAngle</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="~s5u{js`jy~wqabC5`f*" x="0" y="2833">
     <field name="NAME">doRescue</field>
     <statement name="STACK">
       <block type="controls_if" id="uBk~=~4h=rb7;_e,YEXz">
@@ -958,7 +928,7 @@
               <block type="time_delay" id="V[l_HZ07{;WM%~2*Xkk/">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="8UdO|-$`-!M)h$S2Wg6f">
-                    <field name="NUM">300</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -968,7 +938,7 @@
                       <block type="time_delay" id="5t(f:_KGZ}K#u}sdAF,3">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="5pP[-,iGL]2[.[w`$W(V">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1110,81 +1080,81 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="z7xb0BFAbuRyYM)KHGcc" x="0" y="3641">
+  <block type="procedures_defnoreturn" id="z7xb0BFAbuRyYM)KHGcc" x="0" y="3555">
     <field name="NAME">doUnload</field>
     <statement name="STACK">
-      <block type="procedures_callnoreturn" id="?/Tm/w$suxKL(py9he1Q">
+      <block type="procedures_callnoreturn" id="-`*+djxzFjyF7/M]~:Qp">
         <mutation name="moveFront"></mutation>
         <next>
-          <block type="time_delay" id="oI$M8FYa~C:[^{I.A+}O">
+          <block type="time_delay" id="~M:}7av3uLzE~=Vrq/9[">
             <value name="DELAY_TIME_MILI">
-              <block type="math_number" id="m+HiHA212Gyn*mqVT=Im">
+              <block type="math_number" id="Vh$xvFC!0|{eIk9`~o4L">
                 <field name="NUM">250</field>
               </block>
             </value>
             <next>
-              <block type="procedures_callnoreturn" id="bXBmBteC_=X/9^hR+qg:">
+              <block type="procedures_callnoreturn" id="3nDdDz$N6Lo1F)b/0n$)">
                 <mutation name="shiftLeft"></mutation>
                 <next>
-                  <block type="time_delay" id="0M9GXZL^RoWAez*N0!A(">
+                  <block type="time_delay" id="R|6aXy.^Imf{9ZFf)$,T">
                     <value name="DELAY_TIME_MILI">
-                      <block type="math_number" id=";;2m[LiNN{+PUdwYT!q@">
+                      <block type="math_number" id="tIT=TJumJj-UbY9L`xD~">
                         <field name="NUM">225</field>
                       </block>
                     </value>
                     <next>
-                      <block type="procedures_callnoreturn" id="Ionmwy0hKH9SJu@?Od!p">
+                      <block type="procedures_callnoreturn" id="cq5s6Y77.Sf|IZ~Y#o[r">
                         <mutation name="stopMoving"></mutation>
                         <next>
-                          <block type="time_delay" id="*:Uy}}548Q}|;}iwdTzf">
+                          <block type="time_delay" id="NrQkZLyv)xKi,d+kK5_X">
                             <value name="DELAY_TIME_MILI">
-                              <block type="math_number" id="?_?cyifPFk%Qu0E0b.y4">
+                              <block type="math_number" id="_G}5pgZEc#nbp:i#khLg">
                                 <field name="NUM">500</field>
                               </block>
                             </value>
                             <next>
-                              <block type="extension_servo_write_on_ai" id="(dRy5gD(th)F{$Z$;_/?">
+                              <block type="extension_servo_write_on_ai" id="llCl4nK3;?qj]NT-~RC-">
                                 <field name="gpio">P0</field>
                                 <value name="degree">
-                                  <shadow type="math_number" id="t6M3bD3DTr`(N9O$b[[z">
-                                    <field name="NUM">79</field>
+                                  <shadow type="math_number" id="BLLv08VBaU3:@)C1iIf6">
+                                    <field name="NUM">90</field>
                                   </shadow>
-                                  <block type="variables_get" id="+2x}v(@dF+#4,g[H0gU@">
+                                  <block type="variables_get" id="vb0gV/X[$fttqcCAAisY">
                                     <field name="VAR">servoP0UnloadAngle</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="time_delay" id="dI$+2ZWnJ]D2POQciOBi">
+                                  <block type="time_delay" id="{MV,h5ga[dAQnIT=Bs7^">
                                     <value name="DELAY_TIME_MILI">
-                                      <block type="math_number" id="fIQCY25K!RV2Dh8[d]je">
+                                      <block type="math_number" id="KlW3UPA$3I~#.=WdzX$o">
                                         <field name="NUM">2000</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="extension_servo_write_on_ai" id="P3MLBVks#kwANj$wlyS}">
+                                      <block type="extension_servo_write_on_ai" id="9+t%85#mxJG,Ux(b!iyj">
                                         <field name="gpio">P0</field>
                                         <value name="degree">
-                                          <shadow type="math_number" id="xnYIpES6yWTzPMPE)XAC">
-                                            <field name="NUM">0</field>
+                                          <shadow type="math_number" id="BLLv08VBaU3:@)C1iIf6">
+                                            <field name="NUM">90</field>
                                           </shadow>
-                                          <block type="variables_get" id="M,j}!~-h!b/-SO!)+u}4">
+                                          <block type="variables_get" id="9a-(y$pqg7Hh+e(5E#V{">
                                             <field name="VAR">servoP0DownAngle</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="time_delay" id="!N8GAXC7`gTTcE1~?+Pl">
+                                          <block type="time_delay" id=",cJkF~./ShyAmfc[H-8+">
                                             <value name="DELAY_TIME_MILI">
-                                              <block type="math_number" id="sk2TLgr.hy}Z/;.n/^Qf">
+                                              <block type="math_number" id="N70h=fgvpS$|k+`G^zKH">
                                                 <field name="NUM">500</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="procedures_callnoreturn" id="yf--)qySqJlo?jwPTB#%">
+                                              <block type="procedures_callnoreturn" id="ft[S@rJXm0Bu4jkekJNe">
                                                 <mutation name="shiftRight"></mutation>
                                                 <next>
-                                                  <block type="time_delay" id="-:5y09*$@|DbVXN+G/K[">
+                                                  <block type="time_delay" id="_=#WE$]QQ0P=I_d06z%$">
                                                     <value name="DELAY_TIME_MILI">
-                                                      <block type="math_number" id="u6)h*,Snck,ak*1LXrNL">
+                                                      <block type="math_number" id="qqEX15dD3fvScJm1G{T0">
                                                         <field name="NUM">225</field>
                                                       </block>
                                                     </value>
@@ -1249,7 +1219,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="{SvsY1T0zT(oNF,-}(m`" x="0" y="4182">
+  <block type="procedures_defnoreturn" id="{SvsY1T0zT(oNF,-}(m`" x="0" y="4096">
     <field name="NAME">doSupply</field>
     <statement name="STACK">
       <block type="controls_if" id="F(33w%}aO0.VU}M!H|t*">
@@ -1276,7 +1246,7 @@
               <block type="time_delay" id="Q2_Uc_57]i5X)o*`qI,P">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="TZKIUiMC*7]dF;BwEEwl">
-                    <field name="NUM">300</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1286,7 +1256,7 @@
                       <block type="time_delay" id=":2E4AVfk9Lj^}DB)IiWe">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="bO+Rl3?z!X_:*,N,q@vA">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1342,7 +1312,7 @@
               <block type="time_delay" id="*Ifdw9Wzv6nch3uGXLAy">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="U[3ow%!rz0@qY~0u2QzZ">
-                    <field name="NUM">300</field>
+                    <field name="NUM">225</field>
                   </block>
                 </value>
                 <next>
@@ -1352,7 +1322,7 @@
                       <block type="time_delay" id="03sF95RmMw2eg)RGT0lK">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="SPThQqe0o9EWY9X1iAMM">
-                            <field name="NUM">1500</field>
+                            <field name="NUM">1850</field>
                           </block>
                         </value>
                         <next>
@@ -1460,7 +1430,7 @@
                   <shadow type="math_number" id="zm[BS?5n!H|BK`n!Xx},">
                     <field name="NUM">50</field>
                   </shadow>
-                  <block type="variables_get" id="L(UR1V.^)A3}?~T`w,[u">
+                  <block type="variables_get" id="*L2q(l9n!JEV89Xe7:Nl">
                     <field name="VAR">servoP1DownAngle</field>
                   </block>
                 </value>
@@ -1472,71 +1442,76 @@
                       </block>
                     </value>
                     <next>
-                      <block type="procedures_callnoreturn" id="od|neMlBdt=~HmKQY1/.">
+                      <block type="procedures_callnoreturn" id="1@}mV]u|EFd{+=#iF~0{">
                         <mutation name="moveBack"></mutation>
                         <next>
-                          <block type="time_delay" id="MDx]2qLh+a$opY!C93#y">
+                          <block type="time_delay" id="N+CEOaB8@5Y~tp|E5mvv">
                             <value name="DELAY_TIME_MILI">
-                              <block type="math_number" id="sE#bvC16rPi$RmJvnE3D">
+                              <block type="math_number" id="q.aU1%VW#D~5+LfMx70l">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="controls_repeat_ext" id="SXs:M{-)p,3+t*)rR2of">
+                              <block type="controls_repeat_ext" id="6Z6WF:R-h$x#%dQjPW0~">
                                 <value name="TIMES">
-                                  <shadow type="math_number" id="6?dX4S+(FgIt1[9Qs}4j">
+                                  <shadow type="math_number" id="%5[mWL26t@4Ut1*0UR3s">
                                     <field name="NUM">2</field>
                                   </shadow>
                                 </value>
                                 <statement name="DO">
-                                  <block type="extension_servo_write_on_ai" id="Rtl@=4)i7Z$Bmvgl~-OS">
+                                  <block type="extension_servo_write_on_ai" id="j0gU$F+DVGu(8?`yiE:S">
                                     <field name="gpio">P1</field>
                                     <value name="degree">
-                                      <shadow type="math_number" id="{GwLPQ1l{Ki7!ffny+id">
-                                        <field name="NUM">103</field>
+                                      <shadow type="math_number" id="C~j5z`-*{[A$*(WUQD_1">
+                                        <field name="NUM">90</field>
                                       </shadow>
-                                      <block type="variables_get" id="BDRd(SQWQZ}lZjw(jz9t">
+                                      <block type="variables_get" id="vVFOG`qXYD(RtnF[hNni">
                                         <field name="VAR">servoP1UpAngle</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="procedures_callnoreturn" id="@;W2r:d|.Uxv!*t_m.rW">
+                                      <block type="procedures_callnoreturn" id="VY6xRKvHFm^eDy/kuOkx">
                                         <mutation name="moveFront"></mutation>
                                         <next>
-                                          <block type="time_delay" id="pLpr[Q/NHySJFsLnqdRG">
+                                          <block type="time_delay" id="WZSHt6$Q0w-;Xf,90aaE">
                                             <value name="DELAY_TIME_MILI">
-                                              <block type="math_number" id="L]CnCi.QNq.pU3ttVFGQ">
+                                              <block type="math_number" id="^Jz)8l}sWgm|.PS0R?~J">
                                                 <field name="NUM">1000</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="extension_servo_write_on_ai" id="{iOi1#DCzw,LRnJKTT++">
+                                              <block type="extension_servo_write_on_ai" id="bk8(J$MjsNh+^:]L?K6N">
                                                 <field name="gpio">P1</field>
                                                 <value name="degree">
-                                                  <shadow type="math_number" id="zm[BS?5n!H|BK`n!Xx},">
-                                                    <field name="NUM">50</field>
+                                                  <shadow type="math_number" id="C~j5z`-*{[A$*(WUQD_1">
+                                                    <field name="NUM">90</field>
                                                   </shadow>
-                                                  <block type="variables_get" id="2FZwT-s`USt{?8I-iHdP">
+                                                  <block type="variables_get" id="#=6o[rJN}~!jb+aMYqzq">
                                                     <field name="VAR">servoP1DownAngle</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="time_delay" id="!W1?f_qFshBFmq|HJbx/">
-                                                    <value name="DELAY_TIME_MILI">
-                                                      <block type="math_number" id="6$Pjx1L$`@6Jj%#s3WJ7">
-                                                        <field name="NUM">50</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="procedures_callnoreturn" id="!%Bxk|USY;jM08mC/8(5">
+                                                    <mutation name="stopMoving"></mutation>
                                                     <next>
-                                                      <block type="procedures_callnoreturn" id="BrD;YE0TL/=:^V1VSoJ]">
-                                                        <mutation name="moveBack"></mutation>
+                                                      <block type="time_delay" id="qgxliH(g1=bU+4*{M!L5">
+                                                        <value name="DELAY_TIME_MILI">
+                                                          <block type="math_number" id="!:lH{Oi^)~y$;%C@CdC+">
+                                                            <field name="NUM">100</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="time_delay" id="Yf%)f;DEAA!Q))Jm5YCo">
-                                                            <value name="DELAY_TIME_MILI">
-                                                              <block type="math_number" id="`aQHh8@Yx8=vSORIQ|v=">
-                                                                <field name="NUM">1000</field>
+                                                          <block type="procedures_callnoreturn" id="Aown3~z}JhboAg:B=tue">
+                                                            <mutation name="moveBack"></mutation>
+                                                            <next>
+                                                              <block type="time_delay" id=";6`;qCiHw!o7{`;IL|{X">
+                                                                <value name="DELAY_TIME_MILI">
+                                                                  <block type="math_number" id="dR;hBE5smWL3OiGO%LV!">
+                                                                    <field name="NUM">1000</field>
+                                                                  </block>
+                                                                </value>
                                                               </block>
-                                                            </value>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
@@ -1552,58 +1527,72 @@
                                   </block>
                                 </statement>
                                 <next>
-                                  <block type="procedures_callnoreturn" id="PjvNDuJ6+Xij(/4lGc:]">
+                                  <block type="procedures_callnoreturn" id="f3@P[C=(P@QNz(61xWXr">
                                     <mutation name="moveBack"></mutation>
                                     <next>
-                                      <block type="time_delay" id="$th?MulndPws0$4b6V=.">
+                                      <block type="time_delay" id="$5Am3PbrAmdvn6Z4..Ad">
                                         <value name="DELAY_TIME_MILI">
-                                          <block type="math_number" id="[2DLV`SLo+nSIyv0S6qI">
-                                            <field name="NUM">200</field>
+                                          <block type="math_number" id="CH/w5sy,4m!alEvgKT%x">
+                                            <field name="NUM">400</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="procedures_callnoreturn" id="It6g0dAn$n,8wO=#6$P#">
-                                            <mutation name="turnRight"></mutation>
+                                          <block type="procedures_callnoreturn" id="2GNwHsX4p4!]_WGy=8)[">
+                                            <mutation name="shiftRight"></mutation>
                                             <next>
-                                              <block type="time_delay" id="oxd!8D|G*}Pd(W1J}FoN">
+                                              <block type="time_delay" id="@O/XRm4*2YO^-klT*jGw">
                                                 <value name="DELAY_TIME_MILI">
-                                                  <block type="math_number" id="Ec;VzcP/_I_DL5z2A_Hz">
-                                                    <field name="NUM">1500</field>
+                                                  <block type="math_number" id="#kui;kn5e3J/|P!z)kus">
+                                                    <field name="NUM">150</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="extension_servo_write_on_ai" id="25E;ux(eqL!0-syfl-di">
-                                                    <field name="gpio">P1</field>
-                                                    <value name="degree">
-                                                      <shadow type="math_number" id="{GwLPQ1l{Ki7!ffny+id">
-                                                        <field name="NUM">103</field>
-                                                      </shadow>
-                                                      <block type="variables_get" id="u76A.vjL9_Kmj7ZuAm1a">
-                                                        <field name="VAR">servoP1UpAngle</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="procedures_callnoreturn" id="oAFuc_N`oWHgnbnhAk4D">
+                                                    <mutation name="turnRight"></mutation>
                                                     <next>
-                                                      <block type="variables_set" id="^g3JN,APxcDvUtV(Gz8%">
-                                                        <field name="VAR">doTravel</field>
-                                                        <value name="VALUE">
-                                                          <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
-                                                            <field name="NUM">0</field>
-                                                          </shadow>
-                                                          <block type="text" id="z{k:[.gdcO0[4q9^De6.">
-                                                            <field name="TEXT">CLOSED</field>
+                                                      <block type="time_delay" id="v*I{f~xfzE7S^^Uv8(g%">
+                                                        <value name="DELAY_TIME_MILI">
+                                                          <block type="math_number" id=",}/v^i4g0YRCbleVR,u{">
+                                                            <field name="NUM">3700</field>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="variables_set" id="|#AvfvqNK1/L*Om(k4vg">
-                                                            <field name="VAR">containerFilled</field>
-                                                            <value name="VALUE">
-                                                              <shadow type="math_number" id="2b#rO5}Sh5U]w=x%1B*r">
-                                                                <field name="NUM">0</field>
+                                                          <block type="extension_servo_write_on_ai" id="E@Hwx|lD2@|W+^/%2w8t">
+                                                            <field name="gpio">P1</field>
+                                                            <value name="degree">
+                                                              <shadow type="math_number" id="C~j5z`-*{[A$*(WUQD_1">
+                                                                <field name="NUM">90</field>
                                                               </shadow>
-                                                              <block type="text" id="17jo(6$o^WE,.PT72M!T">
-                                                                <field name="TEXT">FILLED</field>
+                                                              <block type="variables_get" id="I5nM*hf,5e{efA~$Da9.">
+                                                                <field name="VAR">servoP1UpAngle</field>
                                                               </block>
                                                             </value>
+                                                            <next>
+                                                              <block type="variables_set" id="^g3JN,APxcDvUtV(Gz8%">
+                                                                <field name="VAR">doTravel</field>
+                                                                <value name="VALUE">
+                                                                  <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
+                                                                    <field name="NUM">0</field>
+                                                                  </shadow>
+                                                                  <block type="text" id="z{k:[.gdcO0[4q9^De6.">
+                                                                    <field name="TEXT">CLOSED</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_set" id="|#AvfvqNK1/L*Om(k4vg">
+                                                                    <field name="VAR">containerFilled</field>
+                                                                    <value name="VALUE">
+                                                                      <shadow type="math_number" id="2b#rO5}Sh5U]w=x%1B*r">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                      <block type="text" id="17jo(6$o^WE,.PT72M!T">
+                                                                        <field name="TEXT">FILLED</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
                                                           </block>
                                                         </next>
                                                       </block>
@@ -1633,7 +1622,243 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="5504">
+  <block type="procedures_defnoreturn" id="#-{7uSoZQ:qS|*~}Br`y" x="0" y="5505">
+    <field name="NAME">doObstacle</field>
+    <statement name="STACK">
+      <block type="controls_if" id="OqlLTTbgX$n0P,HZ15%T">
+        <mutation elseif="2"></mutation>
+        <value name="IF0">
+          <block type="logic_operation" id="E2^?2BrAc(we)s:#[/m0" inline="false">
+            <field name="OP">OR</field>
+            <value name="A">
+              <block type="logic_compare" id="!FUtP9+@;!|dEI`TU%K-">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="qBVaQGL{K9_ls~`:bzkV">
+                    <field name="VAR">junctionCount</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="cbaaq90rZ/Gny($XFL$2">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="d#R%K#SYZ?~*ZK%/WY4d">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="]6O74tD@G.pC[(mltQ^S">
+                    <field name="VAR">junctionCount</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="Ol3iY.tcC7[@-L=jS}*.">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="procedures_callnoreturn" id="ZBc=jmSgb+tQn=#!]IFI">
+            <mutation name="moveFront"></mutation>
+            <next>
+              <block type="time_delay" id="|r*h!/#K|vpB#FRqI6Fv">
+                <value name="DELAY_TIME_MILI">
+                  <block type="math_number" id="0rF[mM8dQbKVvd~#Zra;">
+                    <field name="NUM">225</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="procedures_callnoreturn" id="w??1MSEc)2{jpiuwQj58">
+                    <mutation name="turnRight"></mutation>
+                    <next>
+                      <block type="time_delay" id="/S^4+}gYwaUCtGdR48Rv">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="Xd_^p-ubM{%+iOX@/m}o">
+                            <field name="NUM">1850</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="J/tS5PdI.uEdk`^gj,G9">
+                            <field name="VAR">doTravel</field>
+                            <value name="VALUE">
+                              <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
+                                <field name="NUM">0</field>
+                              </shadow>
+                              <block type="text" id="/n{GYK^=g{g-|f3mPpsc">
+                                <field name="TEXT">CLOSED</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="D]VQZZ5UqhEI7o@RB]Lv">
+                                <field name="VAR">doDetect</field>
+                                <value name="VALUE">
+                                  <shadow type="math_number" id="+Hpcw~8ZAbzI[Xi-+1x0">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="{3o*W.Dznl[}8lP8WBq2">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="74Y+YqgU,KzIC`}OG3oF">
+                <field name="VAR">junctionCount</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="WmM`|/7HMH75{AL308H2">
+                <field name="NUM">3</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="variables_set" id="itKeZ@*GVBD8_UqQ5-o4">
+            <field name="VAR">doWait</field>
+            <value name="VALUE">
+              <shadow type="math_number" id="miFpz$^zT_V]7kv/ARh8">
+                <field name="NUM">1</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="procedures_callnoreturn" id="JQ_gN@r4IqcD+/jva[jg">
+                <mutation name="moveFront"></mutation>
+                <next>
+                  <block type="time_delay" id="2-^fdh9Mp%Fm~J0LE.w8">
+                    <value name="DELAY_TIME_MILI">
+                      <block type="math_number" id="V=C)s]uhU4I.j#x`se/N">
+                        <field name="NUM">300</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="procedures_callnoreturn" id="P{;!=bNod$Z#4]P[4*Qy">
+                        <mutation name="stopMoving"></mutation>
+                        <next>
+                          <block type="time_delay" id="ZWr7r#D(4|}Rf)},wmUm">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="cI2xlj]r5+s2lH`E]*lZ">
+                                <field name="NUM">1000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="q,x!d)6n?g0xi8%VE:|.">
+                                <field name="VAR">doTravel</field>
+                                <value name="VALUE">
+                                  <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                  <block type="text" id="~0oo,]_T9o|[/,u]ORFj">
+                                    <field name="TEXT">CLOSED</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="[%iJ=7RmCK`s^XHuBpzj">
+                                    <field name="VAR">doDetect</field>
+                                    <value name="VALUE">
+                                      <shadow type="math_number" id="4^`/|P2S=b!mR3iyjEt*">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="logic_compare" id="y|S(_*K7rlDGI+rASXCg">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="qDx;4Sd^0A+i24jJ0L0!">
+                <field name="VAR">junctionCount</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="ogmA-v]7~4iB1C~cqVYr">
+                <field name="NUM">4</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="procedures_callnoreturn" id="[-X2)B7BwO@eqJv*RF1#">
+            <mutation name="moveFront"></mutation>
+            <next>
+              <block type="time_delay" id="~9.e]i.k*/g5Bbxt#]Q|">
+                <value name="DELAY_TIME_MILI">
+                  <block type="math_number" id="Ry)zN@/vHWj+|K]FH=Yh">
+                    <field name="NUM">225</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="procedures_callnoreturn" id="S]9Q8O{#0U_%)|^P[aQB">
+                    <mutation name="turnLeft"></mutation>
+                    <next>
+                      <block type="time_delay" id="An)Yh3K:e^y:Bl^wlSRb">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="h2#VkowXas+hxE|EE3o3">
+                            <field name="NUM">1850</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="6!|zA/kVcA=x3Gp4)2u}">
+                            <field name="VAR">doTravel</field>
+                            <value name="VALUE">
+                              <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
+                                <field name="NUM">0</field>
+                              </shadow>
+                              <block type="text" id="CDWIGbku_#V$;@rS@g`f">
+                                <field name="TEXT">CLOSED</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="JvjT2`Q,nqTd+DJ_.H5I">
+                                <field name="VAR">doDetect</field>
+                                <value name="VALUE">
+                                  <shadow type="math_number" id="WM;avP?=3irj{ve|5sfd">
+                                    <field name="NUM">1</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="6293">
     <field name="NAME">doDetection</field>
     <statement name="STACK">
       <block type="variables_set" id="R3Ldww6|n,3l$)d3VS)d">
@@ -1651,31 +1876,31 @@
               <shadow type="math_number" id="MX4BHe;aNlv?:4W-{(Jh">
                 <field name="NUM">0</field>
               </shadow>
-              <block type="v831_lcd_img_cut" id="NezD9%wgnCY.Laq1Ts5M">
+              <block type="v831_lcd_img_cut" id="[Q8cq`zpP-u1W;5P7Vn;">
                 <field name="varitem">imageDetection</field>
                 <value name="xy">
-                  <block type="ai_lcd_XY_vision" id="5KKT[}1vQ));_etqM3JW">
+                  <block type="ai_lcd_XY_vision" id="}]H{{jWvoQ4[-GwW6k0i">
                     <value name="A">
-                      <shadow type="math_number" id="27dS}s0)6;n[SecKf*:i">
+                      <shadow type="math_number" id="Zz!]r?O;evNS8`$L`Q@L">
                         <field name="NUM">48</field>
                       </shadow>
                     </value>
                     <value name="B">
-                      <shadow type="math_number" id="@b|?pg1:]eo.X,aYg7.S">
+                      <shadow type="math_number" id="/`jBB3|q}es-IKOp!j3G">
                         <field name="NUM">8</field>
                       </shadow>
                     </value>
                   </block>
                 </value>
                 <value name="wh">
-                  <block type="ai_lcd_WH_vision" id="e7aPykE#2WdR[D_imB(D">
+                  <block type="ai_lcd_WH_vision" id="M}JVjSSW0VsZhxe2jt2?">
                     <value name="A">
-                      <shadow type="math_number" id="[:!:vJpsL^Dh4Dj:4S(a">
+                      <shadow type="math_number" id="PQk#;g@q~O(Bw!vQqMdZ">
                         <field name="NUM">224</field>
                       </shadow>
                     </value>
                     <value name="B">
-                      <shadow type="math_number" id="E[(!2MMi|y*^g=t2SOK,">
+                      <shadow type="math_number" id="q%bIkC_XaEz~m^p14l|0">
                         <field name="NUM">224</field>
                       </shadow>
                     </value>
@@ -1684,7 +1909,7 @@
               </block>
             </value>
             <next>
-              <block type="ai_model_customized_load_setup" id="|6g%v,8ON6`f:FP#t8Y-">
+              <block type="ai_model_customized_load_setup" id="yDIww@?~-;7_%Il.+7{[">
                 <field name="varitem">imageDetection</field>
                 <next>
                   <block type="controls_if" id="a(Y|Bn!w-E7z6dY;ds`g">
@@ -1693,7 +1918,7 @@
                       <block type="logic_operation" id="6p^U(PTi}RJc%:tUH%^q">
                         <field name="OP">AND</field>
                         <value name="A">
-                          <block type="ai_model_customized_if_got" id="IFi%~orf8jE3*3.S{09%"></block>
+                          <block type="ai_model_customized_if_got" id="6dc70.)?]TDc0vBl#pEh"></block>
                         </value>
                         <value name="B">
                           <block type="logic_compare" id="}x(J.vqqb26H~N7+2j^?">
@@ -1716,7 +1941,7 @@
                       <block type="controls_forEach" id="!?)yyDXC]QRh:Qc.j`Fd">
                         <field name="VAR">i</field>
                         <value name="LIST">
-                          <block type="ai_model_customized_attribute" id="Ban[_hrk/+$1K^vrf`p+"></block>
+                          <block type="ai_model_customized_attribute" id="(m-:0=L(ftmx-2kqg5|T"></block>
                         </value>
                         <statement name="DO">
                           <block type="ai_lcd_textcarvas" id="Lj#BcN1T.7zE0HbrlpgL">
@@ -1727,7 +1952,7 @@
                                   <shadow type="math_number" id="e#Him?!yP7q54@Oi,itR">
                                     <field name="NUM">0</field>
                                   </shadow>
-                                  <block type="ai_model_customized_get_result" id="Pp?Ma3kvUx{u@[[%$Kfl">
+                                  <block type="ai_model_customized_get_result" id="=f){HqE|N1nUB++/sQ[C">
                                     <field name="varitem">i</field>
                                     <field name="get_results">x</field>
                                   </block>
@@ -1736,7 +1961,7 @@
                                   <shadow type="math_number" id="KJ4X[=0i$`Oj!bhbg.pR">
                                     <field name="NUM">0</field>
                                   </shadow>
-                                  <block type="ai_model_customized_get_result" id="RSHvkHZ,D}-~4kF{?%Mf">
+                                  <block type="ai_model_customized_get_result" id="kFaK?nrnRelqw]T_yYki">
                                     <field name="varitem">i</field>
                                     <field name="get_results">y</field>
                                   </block>
@@ -1750,7 +1975,7 @@
                               <block type="text_join" id="=F=d1KS0$)rEB+Cy[L_Z">
                                 <mutation items="1"></mutation>
                                 <value name="ADD0">
-                                  <block type="ai_model_customized_get_result" id="qR.j^.::*3]%II{V6l}m">
+                                  <block type="ai_model_customized_get_result" id="d/O]uPP(bRg.u}yXnzmU">
                                     <field name="varitem">i</field>
                                     <field name="get_results">classid</field>
                                   </block>
@@ -1777,7 +2002,7 @@
                                       <shadow type="math_number" id="F?Z1$V}nE6,@Sm@Vp:2_">
                                         <field name="NUM">0</field>
                                       </shadow>
-                                      <block type="ai_model_customized_get_result" id="n$xCpx4I#gku@MJn)GhJ">
+                                      <block type="ai_model_customized_get_result" id="N41Bm`,usN+,z.7kf%D_">
                                         <field name="varitem">i</field>
                                         <field name="get_results">x</field>
                                       </block>
@@ -1786,7 +2011,7 @@
                                       <shadow type="math_number" id="b$.Z@N[LUrYs(c8}$F=h">
                                         <field name="NUM">0</field>
                                       </shadow>
-                                      <block type="ai_model_customized_get_result" id="dEmM;XOcH[)RLVQQREf]">
+                                      <block type="ai_model_customized_get_result" id="fp0p|cm;.o?UOU93-||U">
                                         <field name="varitem">i</field>
                                         <field name="get_results">y</field>
                                       </block>
@@ -1799,7 +2024,7 @@
                                       <shadow type="math_number" id="LoAJs}XtuO1`0rfE=L/!">
                                         <field name="NUM">0</field>
                                       </shadow>
-                                      <block type="ai_model_customized_get_result" id="`;hr-%1]/kOl40LXD*Iv">
+                                      <block type="ai_model_customized_get_result" id="wCS~ffLz|34fW/QjuKR%">
                                         <field name="varitem">i</field>
                                         <field name="get_results">w</field>
                                       </block>
@@ -1808,7 +2033,7 @@
                                       <shadow type="math_number" id="KBxaTO6]5uV[IBpO(,#f">
                                         <field name="NUM">0</field>
                                       </shadow>
-                                      <block type="ai_model_customized_get_result" id="Ubb|[pT7SSWZ9r?J3Cro">
+                                      <block type="ai_model_customized_get_result" id="jBezEWTa+E6pW?{*36vh">
                                         <field name="varitem">i</field>
                                         <field name="get_results">h</field>
                                       </block>
@@ -1822,7 +2047,7 @@
                                 </value>
                                 <next>
                                   <block type="controls_if" id="z}%fgJ$3C)aHP;!a:BaC">
-                                    <mutation elseif="4"></mutation>
+                                    <mutation elseif="6"></mutation>
                                     <value name="IF0">
                                       <block type="logic_operation" id="{ZSfLavR/{Z{))n4*AA1" inline="false">
                                         <field name="OP">AND</field>
@@ -1830,7 +2055,7 @@
                                           <block type="logic_compare" id="aw(lF`44:H{+eI/YwNgQ">
                                             <field name="OP">EQ</field>
                                             <value name="A">
-                                              <block type="ai_model_customized_get_result" id="(35uR*))sKOInTeNvd08">
+                                              <block type="ai_model_customized_get_result" id="~-fZ:#_p%tJ5}7gd[6-r">
                                                 <field name="varitem">i</field>
                                                 <field name="get_results">classid</field>
                                               </block>
@@ -1846,9 +2071,9 @@
                                           <block type="logic_compare" id="{zlEDaqpc}?BFUXa#}lS">
                                             <field name="OP">LT</field>
                                             <value name="A">
-                                              <block type="ai_model_customized_get_result" id="Q:V#e4(8cvU4vSK9e,j3">
+                                              <block type="ai_model_customized_get_result" id="nG:Xmp)#)(P2-%inX37c">
                                                 <field name="varitem">i</field>
-                                                <field name="get_results">y</field>
+                                                <field name="get_results">x</field>
                                               </block>
                                             </value>
                                             <value name="B">
@@ -1880,7 +2105,7 @@
                                           <block type="logic_compare" id="2W/Z~8uXR=MMqx`L9yCu">
                                             <field name="OP">EQ</field>
                                             <value name="A">
-                                              <block type="ai_model_customized_get_result" id="sHkmr6*]mU/UN*F9jMH}">
+                                              <block type="ai_model_customized_get_result" id="BTO:4%.(yaW^$9h-njNc">
                                                 <field name="varitem">i</field>
                                                 <field name="get_results">classid</field>
                                               </block>
@@ -1896,7 +2121,7 @@
                                           <block type="logic_compare" id="q#q6Q[8H4TA,KcphM8bL">
                                             <field name="OP">LT</field>
                                             <value name="A">
-                                              <block type="ai_model_customized_get_result" id="eq5)tK|Q+,y{D[5+64zw">
+                                              <block type="ai_model_customized_get_result" id="0m,=rLSCj`,Jr!4N7%f9">
                                                 <field name="varitem">i</field>
                                                 <field name="get_results">y</field>
                                               </block>
@@ -1924,10 +2149,60 @@
                                       </block>
                                     </statement>
                                     <value name="IF2">
+                                      <block type="logic_operation" id="+R8mm|2t|4*09$U@%pJu" inline="false">
+                                        <field name="OP">AND</field>
+                                        <value name="A">
+                                          <block type="logic_compare" id="[~44`)O9v$XowC,Ij]bn">
+                                            <field name="OP">EQ</field>
+                                            <value name="A">
+                                              <block type="ai_model_customized_get_result" id="`4%y/mlk5_r4i{kF#%%`">
+                                                <field name="varitem">i</field>
+                                                <field name="get_results">classid</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="text" id="Q%q=OCMQN33|I,`*}i.O">
+                                                <field name="TEXT">Clearing_Zone</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="logic_compare" id="Jg2z?P$~WI*j[i3[MaBW">
+                                            <field name="OP">LT</field>
+                                            <value name="A">
+                                              <block type="ai_model_customized_get_result" id="X^GT^i(kW!?a*Gx1mX4K">
+                                                <field name="varitem">i</field>
+                                                <field name="get_results">y</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="math_number" id="QIm*^aFz}+%R*e0X`9Nn">
+                                                <field name="NUM">200</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO2">
+                                      <block type="variables_set" id="Z(]QFWt~|}iiH=.HPT=]">
+                                        <field name="VAR">vehicleLocation</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="les`U*[7FDi(-zi,0u^Q">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id=",$]a7`]9wtB34BN`wq|v">
+                                            <field name="TEXT">CLEARING_ZONE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <value name="IF3">
                                       <block type="logic_compare" id="B:!bSJ;](AH76zv@{9Cm">
                                         <field name="OP">EQ</field>
                                         <value name="A">
-                                          <block type="ai_model_customized_get_result" id="2G.}:#rufSQuM.$T(NcE">
+                                          <block type="ai_model_customized_get_result" id="j?NPY9Z^+eF_M*rpBx!4">
                                             <field name="varitem">i</field>
                                             <field name="get_results">classid</field>
                                           </block>
@@ -1939,7 +2214,7 @@
                                         </value>
                                       </block>
                                     </value>
-                                    <statement name="DO2">
+                                    <statement name="DO3">
                                       <block type="variables_set" id="CwR9wjT/z(5JCFW`ckCo">
                                         <field name="VAR">vehicleLocation</field>
                                         <value name="VALUE">
@@ -1962,11 +2237,11 @@
                                         </next>
                                       </block>
                                     </statement>
-                                    <value name="IF3">
+                                    <value name="IF4">
                                       <block type="logic_compare" id="R$r1A)-ZOx!CMTT!nOVj">
                                         <field name="OP">EQ</field>
                                         <value name="A">
-                                          <block type="ai_model_customized_get_result" id="hgeIHJ,3gMBME-nPIE2P">
+                                          <block type="ai_model_customized_get_result" id="N`d0{;Hlz.eJ4[E?h/kB">
                                             <field name="varitem">i</field>
                                             <field name="get_results">classid</field>
                                           </block>
@@ -1978,7 +2253,7 @@
                                         </value>
                                       </block>
                                     </value>
-                                    <statement name="DO3">
+                                    <statement name="DO4">
                                       <block type="variables_set" id="Ms(]$D/OLZCz1Q[l=11d">
                                         <field name="VAR">vehicleCommand</field>
                                         <value name="VALUE">
@@ -1991,11 +2266,11 @@
                                         </value>
                                       </block>
                                     </statement>
-                                    <value name="IF4">
+                                    <value name="IF5">
                                       <block type="logic_compare" id="k~u-p2=$!Ym!m$PekQr]">
                                         <field name="OP">EQ</field>
                                         <value name="A">
-                                          <block type="ai_model_customized_get_result" id="*GOil7^m0=EY0u}wq$Ct">
+                                          <block type="ai_model_customized_get_result" id="M*G=Xeh$-kO@@[k%X)uV">
                                             <field name="varitem">i</field>
                                             <field name="get_results">classid</field>
                                           </block>
@@ -2007,7 +2282,36 @@
                                         </value>
                                       </block>
                                     </value>
-                                    <statement name="DO4">
+                                    <statement name="DO5">
+                                      <block type="variables_set" id="(8%P7!1D$f6*cX!^)2Gf">
+                                        <field name="VAR">vehicleCommand</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="les`U*[7FDi(-zi,0u^Q">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id="smMzF(o/QIETP!qPc@-b">
+                                            <field name="TEXT">GO_COLLECT</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <value name="IF6">
+                                      <block type="logic_compare" id="RI/[Xo{PIGg4gY%OoEM|">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="ai_model_customized_get_result" id="l#XfHEfP#xa=nAdjd%=Y">
+                                            <field name="varitem">i</field>
+                                            <field name="get_results">classid</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="text" id="h{6$En3/uS+;Mu(^%874">
+                                            <field name="TEXT">C</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO6">
                                       <block type="variables_set" id="WY4CII7yI`l]o*O=iGvw">
                                         <field name="VAR">vehicleCommand</field>
                                         <value name="VALUE">
@@ -2015,7 +2319,7 @@
                                             <field name="NUM">0</field>
                                           </shadow>
                                           <block type="text" id="^xWc~3R*dxui5-J_s/B8">
-                                            <field name="TEXT">GO_COLLECT</field>
+                                            <field name="TEXT">GO_CLEAR</field>
                                           </block>
                                         </value>
                                       </block>
@@ -2060,7 +2364,7 @@
                         </value>
                         <statement name="DO0">
                           <block type="controls_if" id="K[oSm7iczO,sYv~l0ju~">
-                            <mutation elseif="2"></mutation>
+                            <mutation elseif="3"></mutation>
                             <value name="IF0">
                               <block type="logic_operation" id="|Qlu*pHl,ugmA;O@J4:r">
                                 <field name="OP">AND</field>
@@ -2118,7 +2422,7 @@
                             </value>
                             <statement name="DO0">
                               <block type="controls_if" id="]Px++$9@R?)ty}f|J2Lh">
-                                <mutation else="1"></mutation>
+                                <mutation elseif="1" else="1"></mutation>
                                 <value name="IF0">
                                   <block type="logic_compare" id="[S?cy]vQ%9.u0?ha!1Vn">
                                     <field name="OP">EQ</field>
@@ -2152,6 +2456,39 @@
                                     </next>
                                   </block>
                                 </statement>
+                                <value name="IF1">
+                                  <block type="logic_compare" id="ZaC|Tq{f?aEu~U`?Qd=O">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="variables_get" id="!RLJRqadHOV9$ID[B7VQ">
+                                        <field name="VAR">vehicleCommand</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="text" id="{Dkr`YWbsX8ZAn3.`=Y@">
+                                        <field name="TEXT">GO_CLEAR</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO1">
+                                  <block type="procedures_callnoreturn" id="*^3/lYClwvTe$1P}IFJs">
+                                    <mutation name="doUnload"></mutation>
+                                    <next>
+                                      <block type="variables_set" id="9H2[K~7e{*a%I3wm9f$,">
+                                        <field name="VAR">currentPath</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="PygjS4[fK-0vbm%HMTwh">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id="c:y1*ix1KT@8meB(KvhA">
+                                            <field name="TEXT">OBSTACLE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
                                 <statement name="ELSE">
                                   <block type="procedures_callnoreturn" id="I6MrX4O6atOr,V!z;rE~">
                                     <mutation name="doUnload"></mutation>
@@ -2162,7 +2499,7 @@
                                           <block type="time_delay" id="rD=W2*0gPKOf5+3mSH!|">
                                             <value name="DELAY_TIME_MILI">
                                               <block type="math_number" id="Zo:i_hw1+1s3jPNQMdn-">
-                                                <field name="NUM">1000</field>
+                                                <field name="NUM">3700</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2256,12 +2593,45 @@
                             </value>
                             <statement name="DO1">
                               <block type="controls_if" id="{Nmh-EMsV,t%gIef.Kqm">
-                                <mutation else="1"></mutation>
+                                <mutation elseif="1" else="1"></mutation>
                                 <value name="IF0">
                                   <block type="logic_compare" id="|*q+/64.jrf8[#9NuR7F">
                                     <field name="OP">EQ</field>
                                     <value name="A">
                                       <block type="variables_get" id="^~w,R[650S@;/UJ/v2ZO">
+                                        <field name="VAR">vehicleCommand</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="text" id="_Qp;*1tOEIz}Fw%gb=Uf">
+                                        <field name="TEXT">GO_CLEAR</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="procedures_callnoreturn" id="**bk;cpGTcj7:yB`v%uk">
+                                    <mutation name="doUnload"></mutation>
+                                    <next>
+                                      <block type="variables_set" id="DLt01gEd2537{ywAW#+q">
+                                        <field name="VAR">currentPath</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="PygjS4[fK-0vbm%HMTwh">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id="_;Tye4D{KuYl(BdoDxOt">
+                                            <field name="TEXT">OBSTACLE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <value name="IF1">
+                                  <block type="logic_compare" id="Vl=8uj)@BxY?Pwc-EO/Q">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="variables_get" id=",6:y[va][{6x%pT6[h{-">
                                         <field name="VAR">vehicleCommand</field>
                                       </block>
                                     </value>
@@ -2272,8 +2642,8 @@
                                     </value>
                                   </block>
                                 </value>
-                                <statement name="DO0">
-                                  <block type="procedures_callnoreturn" id="**bk;cpGTcj7:yB`v%uk">
+                                <statement name="DO1">
+                                  <block type="procedures_callnoreturn" id="Sf2`Tn)a_JQqe!h0)[s:">
                                     <mutation name="doUnload"></mutation>
                                     <next>
                                       <block type="procedures_callnoreturn" id="5!@y.VpDz0T)_%}@khMP">
@@ -2282,7 +2652,7 @@
                                           <block type="time_delay" id=";!n~bzYAFq.65[TqKtw5">
                                             <value name="DELAY_TIME_MILI">
                                               <block type="math_number" id="ZvRqQmlWeDP_Oia}D9u4">
-                                                <field name="NUM">1000</field>
+                                                <field name="NUM">3700</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2338,6 +2708,89 @@
                               </block>
                             </statement>
                             <value name="IF2">
+                              <block type="logic_operation" id="2,m6DtlwD1AFM]Hh2}go">
+                                <field name="OP">AND</field>
+                                <value name="A">
+                                  <block type="logic_compare" id="f?e|7:RtJeW*6[o;kQWD">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="variables_get" id="dA.8bRHSq*y:?si1jb9_">
+                                        <field name="VAR">vehicleLocation</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="text" id="p3)W==pDxAJDq*}VLwI@">
+                                        <field name="TEXT">CLEARING_ZONE</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="logic_operation" id="DB23f6}F4:@Y^22LDM2t">
+                                    <field name="OP">AND</field>
+                                    <value name="A">
+                                      <block type="logic_compare" id="hr09(H=6RTU,?+$Czdu)">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="variables_get" id="a(*ZU2T+#ogq:hQ%Ei6d">
+                                            <field name="VAR">currentPath</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="text" id="g:xlF=%g#XUd4i+w6Jy=">
+                                            <field name="TEXT">OBSTACLE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="logic_compare" id="?*ocCzkrR#[+83o8y,Tu">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="variables_get" id="v;3o#Gz%A3+`)V7?AK46">
+                                            <field name="VAR">containerFilled</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="text" id="%]O-S)aR7!~5y[1+dk.v">
+                                            <field name="TEXT">FILLED</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO2">
+                              <block type="procedures_callnoreturn" id="P`L}TU4A9%|V*|Okt^CG">
+                                <mutation name="doUnload"></mutation>
+                                <next>
+                                  <block type="variables_set" id="cC1uiGV2=)aV.:NS+BtZ">
+                                    <field name="VAR">currentPath</field>
+                                    <value name="VALUE">
+                                      <shadow type="math_number" id="PygjS4[fK-0vbm%HMTwh">
+                                        <field name="NUM">0</field>
+                                      </shadow>
+                                      <block type="text" id="fykU33~8Bqa`[|UXfuVg">
+                                        <field name="TEXT">SUPPLY</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="Vgjj;7@[LCbJQ/`Go|=u">
+                                        <field name="VAR">junctionCount</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="CA|BC-7k}20qShy.,l7C">
+                                            <field name="NUM">-1</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <value name="IF3">
                               <block type="logic_compare" id="(hD!)N05)o{HJX]lJMYK">
                                 <field name="OP">EQ</field>
                                 <value name="A">
@@ -2352,30 +2805,105 @@
                                 </value>
                               </block>
                             </value>
-                            <statement name="DO2">
+                            <statement name="DO3">
                               <block type="variables_set" id="_vepb(2-vZPF{F}QtpzA">
-                                <field name="VAR">doWait</field>
+                                <field name="VAR">wait</field>
                                 <value name="VALUE">
                                   <shadow type="math_number" id="PygjS4[fK-0vbm%HMTwh">
                                     <field name="NUM">0</field>
                                   </shadow>
                                 </value>
                                 <next>
-                                  <block type="variables_set" id="g}5u!Ra|It7=E^/f:l),">
-                                    <field name="VAR">containerFilled</field>
-                                    <value name="VALUE">
-                                      <shadow type="math_number" id="Yj0CnW@D3I,JapZf94wQ">
-                                        <field name="NUM">0</field>
-                                      </shadow>
-                                      <block type="text" id="7hc*]3WX*9VED-X93^Lr">
-                                        <field name="TEXT">FILLED</field>
+                                  <block type="controls_if" id="muD7)N$|7JBD-l7szWQX">
+                                    <mutation elseif="1"></mutation>
+                                    <value name="IF0">
+                                      <block type="logic_compare" id="GOn,PDMR86lI{[VN$$z%">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="variables_get" id="SQ-PNuJW{!LU4v,.kw~G">
+                                            <field name="VAR">currentPath</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="text" id="-Ma}YSPrk$clqG$.XiFh">
+                                            <field name="TEXT">RESCUE</field>
+                                          </block>
+                                        </value>
                                       </block>
                                     </value>
-                                    <next>
-                                      <block type="procedures_callnoreturn" id="~FQM9}=gY!Zi%s*C,myE">
-                                        <mutation name="moveFront"></mutation>
+                                    <statement name="DO0">
+                                      <block type="variables_set" id="g}5u!Ra|It7=E^/f:l),">
+                                        <field name="VAR">containerFilled</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="Yj0CnW@D3I,JapZf94wQ">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id="7hc*]3WX*9VED-X93^Lr">
+                                            <field name="TEXT">FILLED</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="procedures_callnoreturn" id="~FQM9}=gY!Zi%s*C,myE">
+                                            <mutation name="moveFront"></mutation>
+                                          </block>
+                                        </next>
                                       </block>
-                                    </next>
+                                    </statement>
+                                    <value name="IF1">
+                                      <block type="logic_compare" id="No0~fX0g*E:;kid$fQ1J">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="variables_get" id="xi#tX5Ot}dZGtPU8-Ln!">
+                                            <field name="VAR">currentPath</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="text" id="5d0PzM6^T2[5vwn{APD^">
+                                            <field name="TEXT">OBSTACLE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO1">
+                                      <block type="variables_set" id="$PG8|+4-a3[#)_TJ0W,8">
+                                        <field name="VAR">containerFilled</field>
+                                        <value name="VALUE">
+                                          <shadow type="math_number" id="Yj0CnW@D3I,JapZf94wQ">
+                                            <field name="NUM">0</field>
+                                          </shadow>
+                                          <block type="text" id=";,`kLgfM8x{6;~`@R5y*">
+                                            <field name="TEXT">FILLED</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="*m)!YjgU!C5}k1JN3zpN">
+                                            <field name="VAR">doTravel</field>
+                                            <value name="VALUE">
+                                              <shadow type="math_number" id="O_9}XuO=LC[PA,[/zAIN">
+                                                <field name="NUM">0</field>
+                                              </shadow>
+                                              <block type="text" id="n-qmU8Fhn)V5.0.`:cq{">
+                                                <field name="TEXT">CLOSED</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="procedures_callnoreturn" id="Go(Fe]WC?fKC?/qbzD^z">
+                                                <mutation name="turnRight"></mutation>
+                                                <next>
+                                                  <block type="time_delay" id="qIfr/]mi|-9:#v-X_-Z!">
+                                                    <value name="DELAY_TIME_MILI">
+                                                      <block type="math_number" id="?OE1J+gTMCYgY+W;qBPw">
+                                                        <field name="NUM">3700</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
                                   </block>
                                 </next>
                               </block>
@@ -2417,63 +2945,63 @@
       </block>
     </statement>
   </block>
-  <block type="ai_camera_init" id="ChhINcn]*U[8XO-1Bj,J" inline="true" x="0" y="7630">
+  <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9113">
+    <mutation name="initVariables"></mutation>
     <next>
-      <block type="ai_lcd_screeninit" id="Cf,Tt4!Qf@+5Ax^6`rc~" inline="true">
-        <field name="isScreen">False</field>
+      <block type="procedures_callnoreturn" id="+wX=JZ-5!^jEV4e[x9Kc">
+        <mutation name="initMotors"></mutation>
         <next>
-          <block type="procedures_callnoreturn" id="C[FjA0(r)7T_6|?5I+3}">
-            <mutation name="initVariables"></mutation>
+          <block type="ai_model_customized_init_setup" id="B/@~8R_+U;g`-TvztpH?" inline="false">
+            <field name="model_path">/root/preset/model/cocopi_FloodingMission</field>
+            <value name="class_input">
+              <block type="lists_create_with" id="6s/axCEEb;v0(-aNx}%,">
+                <mutation items="7"></mutation>
+                <value name="ADD0">
+                  <block type="text" id="b=_7ZFa|w5*IZ`@Uf~cX">
+                    <field name="TEXT">Supply_Station</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="text" id="~(]!o~v;,KP|DTOnM-?F">
+                    <field name="TEXT">Rescue_Station</field>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block type="text" id="$(JG}}j$MYB/u@gYU!Fm">
+                    <field name="TEXT">Clearing_Zone</field>
+                  </block>
+                </value>
+                <value name="ADD3">
+                  <block type="text" id="A1^tt#Y1$?=HJZ5R,`W!">
+                    <field name="TEXT">A</field>
+                  </block>
+                </value>
+                <value name="ADD4">
+                  <block type="text" id="/*5_!V;+]Ct?JQKi8*i=">
+                    <field name="TEXT">B</field>
+                  </block>
+                </value>
+                <value name="ADD5">
+                  <block type="text" id="(k.+tx{(EB9OwW[T36h]">
+                    <field name="TEXT">C</field>
+                  </block>
+                </value>
+                <value name="ADD6">
+                  <block type="text" id="P#XL9-UAw3Qy3+h7;TD?">
+                    <field name="TEXT">D</field>
+                  </block>
+                </value>
+              </block>
+            </value>
             <next>
-              <block type="procedures_callnoreturn" id=":OnbT-S9wUb/)@_{Z[Tk">
-                <mutation name="initMotors"></mutation>
+              <block type="ai_camera_init" id="~(#PfZ5cxy+-!maNp+KK" inline="false">
                 <next>
-                  <block type="ai_model_customized_init_setup" id="B/@~8R_+U;g`-TvztpH?" inline="false">
-                    <field name="model_path">/root/preset/model/cocopi_FloodingMission</field>
-                    <value name="class_input">
-                      <block type="lists_create_with" id="6s/axCEEb;v0(-aNx}%," inline="false">
-                        <mutation items="7"></mutation>
-                        <value name="ADD0">
-                          <block type="text" id="b=_7ZFa|w5*IZ`@Uf~cX">
-                            <field name="TEXT">Supply_Station</field>
-                          </block>
-                        </value>
-                        <value name="ADD1">
-                          <block type="text" id="~(]!o~v;,KP|DTOnM-?F">
-                            <field name="TEXT">Rescue_Station</field>
-                          </block>
-                        </value>
-                        <value name="ADD2">
-                          <block type="text" id="$(JG}}j$MYB/u@gYU!Fm">
-                            <field name="TEXT">Clearing_Zone</field>
-                          </block>
-                        </value>
-                        <value name="ADD3">
-                          <block type="text" id="A1^tt#Y1$?=HJZ5R,`W!">
-                            <field name="TEXT">A</field>
-                          </block>
-                        </value>
-                        <value name="ADD4">
-                          <block type="text" id="/*5_!V;+]Ct?JQKi8*i=">
-                            <field name="TEXT">B</field>
-                          </block>
-                        </value>
-                        <value name="ADD5">
-                          <block type="text" id="(k.+tx{(EB9OwW[T36h]">
-                            <field name="TEXT">C</field>
-                          </block>
-                        </value>
-                        <value name="ADD6">
-                          <block type="text" id="P#XL9-UAw3Qy3+h7;TD?">
-                            <field name="TEXT">D</field>
-                          </block>
-                        </value>
-                      </block>
-                    </value>
+                  <block type="ai_lcd_screeninit" id="D=6=9Jo[v%=nEX`V.#9.">
+                    <field name="isScreen">False</field>
                     <next>
                       <block type="controls_repeat_forever" id="vrh0#gUxWLQ~$A}2}qU.">
                         <statement name="DO">
-                          <block type="procedures_callnoreturn" id="pCVPNR|Ef`Gz^vwMMbq-">
+                          <block type="procedures_callnoreturn" id="sPqo_pklisf(PD2EdZuB">
                             <mutation name="doDetection"></mutation>
                             <next>
                               <block type="controls_if" id="QYC5C]brY.%)d%kIS)n(">
@@ -2523,7 +3051,7 @@
                                     </value>
                                     <next>
                                       <block type="controls_if" id="4Fyp.~y6wOlx(K`7{SX|">
-                                        <mutation elseif="1"></mutation>
+                                        <mutation elseif="2"></mutation>
                                         <value name="IF0">
                                           <block type="logic_compare" id="@_Ncq~!Sm,+g(!wepAH8">
                                             <field name="OP">EQ</field>
@@ -2562,6 +3090,26 @@
                                         <statement name="DO1">
                                           <block type="procedures_callnoreturn" id=",!u_`)C~If)0LRVy.(^k">
                                             <mutation name="doRescue"></mutation>
+                                          </block>
+                                        </statement>
+                                        <value name="IF2">
+                                          <block type="logic_compare" id="`2;]K/`5+af}=~=iKs=]">
+                                            <field name="OP">EQ</field>
+                                            <value name="A">
+                                              <block type="variables_get" id="2)p0Olm[JfG-@E9T7x#P">
+                                                <field name="VAR">currentPath</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="text" id="5R3}pw^kBZiLKS|TyQ9/">
+                                                <field name="TEXT">OBSTACLE</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <statement name="DO2">
+                                          <block type="procedures_callnoreturn" id="M)%Lk]u5%C](v!Nc2__p">
+                                            <mutation name="doObstacle"></mutation>
                                           </block>
                                         </statement>
                                       </block>
@@ -2692,7 +3240,7 @@
                                           </block>
                                         </value>
                                         <statement name="DO0">
-                                          <block type="procedures_callnoreturn" id="+?}_d]n:Kd%d0yi)1I09">
+                                          <block type="procedures_callnoreturn" id="guB#@[KbllRmRImq#9^3">
                                             <mutation name="correctRight"></mutation>
                                           </block>
                                         </statement>
@@ -2732,7 +3280,7 @@
                                           </block>
                                         </value>
                                         <statement name="DO1">
-                                          <block type="procedures_callnoreturn" id="Blloyj~h46r4kyR(!4(*">
+                                          <block type="procedures_callnoreturn" id="WUn#99dW$bxrz9[pk$(0">
                                             <mutation name="correctLeft"></mutation>
                                           </block>
                                         </statement>
