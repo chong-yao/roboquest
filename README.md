@@ -34,4 +34,4 @@ Clawanglemin = 15\
 Gripangleopen = 89\
 Gripangleclose = 60\
 Shooteranglemax = 111\
-Shootermin = 17\
+Shootermin = 17
