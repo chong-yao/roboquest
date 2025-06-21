@@ -1129,7 +1129,7 @@
                   <block type="time_delay" id="0M9GXZL^RoWAez*N0!A(">
                     <value name="DELAY_TIME_MILI">
                       <block type="math_number" id=";;2m[LiNN{+PUdwYT!q@">
-                        <field name="NUM">250</field>
+                        <field name="NUM">225</field>
                       </block>
                     </value>
                     <next>
@@ -1185,7 +1185,7 @@
                                                   <block type="time_delay" id="-:5y09*$@|DbVXN+G/K[">
                                                     <value name="DELAY_TIME_MILI">
                                                       <block type="math_number" id="u6)h*,Snck,ak*1LXrNL">
-                                                        <field name="NUM">250</field>
+                                                        <field name="NUM">225</field>
                                                       </block>
                                                     </value>
                                                     <next>

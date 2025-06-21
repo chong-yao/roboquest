@@ -958,7 +958,7 @@
               <block type="time_delay" id="V[l_HZ07{;WM%~2*Xkk/">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="8UdO|-$`-!M)h$S2Wg6f">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
                 <next>
@@ -1129,7 +1129,7 @@
                   <block type="time_delay" id="R|6aXy.^Imf{9ZFf)$,T">
                     <value name="DELAY_TIME_MILI">
                       <block type="math_number" id="tIT=TJumJj-UbY9L`xD~">
-                        <field name="NUM">250</field>
+                        <field name="NUM">225</field>
                       </block>
                     </value>
                     <next>
@@ -1185,7 +1185,7 @@
                                                   <block type="time_delay" id="_=#WE$]QQ0P=I_d06z%$">
                                                     <value name="DELAY_TIME_MILI">
                                                       <block type="math_number" id="qqEX15dD3fvScJm1G{T0">
-                                                        <field name="NUM">250</field>
+                                                        <field name="NUM">225</field>
                                                       </block>
                                                     </value>
                                                     <next>
@@ -1276,7 +1276,7 @@
               <block type="time_delay" id="Q2_Uc_57]i5X)o*`qI,P">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="TZKIUiMC*7]dF;BwEEwl">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
                 <next>
@@ -1286,7 +1286,7 @@
                       <block type="time_delay" id=":2E4AVfk9Lj^}DB)IiWe">
                         <value name="DELAY_TIME_MILI">
                           <block type="math_number" id="bO+Rl3?z!X_:*,N,q@vA">
-                            <field name="NUM">1000</field>
+                            <field name="NUM">500</field>
                           </block>
                         </value>
                         <next>
@@ -1342,7 +1342,7 @@
               <block type="time_delay" id="*Ifdw9Wzv6nch3uGXLAy">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="U[3ow%!rz0@qY~0u2QzZ">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
                 <next>
@@ -1524,7 +1524,7 @@
                                                   <block type="time_delay" id="qgxliH(g1=bU+4*{M!L5">
                                                     <value name="DELAY_TIME_MILI">
                                                       <block type="math_number" id="!:lH{Oi^)~y$;%C@CdC+">
-                                                        <field name="NUM">50</field>
+                                                        <field name="NUM">100</field>
                                                       </block>
                                                     </value>
                                                     <next>
@@ -1558,7 +1558,7 @@
                                       <block type="time_delay" id="$5Am3PbrAmdvn6Z4..Ad">
                                         <value name="DELAY_TIME_MILI">
                                           <block type="math_number" id="CH/w5sy,4m!alEvgKT%x">
-                                            <field name="NUM">200</field>
+                                            <field name="NUM">300</field>
                                           </block>
                                         </value>
                                         <next>
@@ -1568,7 +1568,7 @@
                                               <block type="time_delay" id="v*I{f~xfzE7S^^Uv8(g%">
                                                 <value name="DELAY_TIME_MILI">
                                                   <block type="math_number" id=",}/v^i4g0YRCbleVR,u{">
-                                                    <field name="NUM">1500</field>
+                                                    <field name="NUM">3700</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -1680,7 +1680,7 @@
               <block type="time_delay" id="|r*h!/#K|vpB#FRqI6Fv">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="0rF[mM8dQbKVvd~#Zra;">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
                 <next>
@@ -1822,7 +1822,7 @@
               <block type="time_delay" id="~9.e]i.k*/g5Bbxt#]Q|">
                 <value name="DELAY_TIME_MILI">
                   <block type="math_number" id="Ry)zN@/vHWj+|K]FH=Yh">
-                    <field name="NUM">300</field>
+                    <field name="NUM">200</field>
                   </block>
                 </value>
                 <next>
@@ -2510,7 +2510,7 @@
                                           <block type="time_delay" id="rD=W2*0gPKOf5+3mSH!|">
                                             <value name="DELAY_TIME_MILI">
                                               <block type="math_number" id="Zo:i_hw1+1s3jPNQMdn-">
-                                                <field name="NUM">1000</field>
+                                                <field name="NUM">3700</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2663,7 +2663,7 @@
                                           <block type="time_delay" id=";!n~bzYAFq.65[TqKtw5">
                                             <value name="DELAY_TIME_MILI">
                                               <block type="math_number" id="ZvRqQmlWeDP_Oia}D9u4">
-                                                <field name="NUM">1000</field>
+                                                <field name="NUM">3700</field>
                                               </block>
                                             </value>
                                             <next>
@@ -2904,7 +2904,7 @@
                                                   <block type="time_delay" id="qIfr/]mi|-9:#v-X_-Z!">
                                                     <value name="DELAY_TIME_MILI">
                                                       <block type="math_number" id="?OE1J+gTMCYgY+W;qBPw">
-                                                        <field name="NUM">1000</field>
+                                                        <field name="NUM">3700</field>
                                                       </block>
                                                     </value>
                                                   </block>
