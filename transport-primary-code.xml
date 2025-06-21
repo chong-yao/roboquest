@@ -3,7 +3,7 @@
     <field name="NAME">initVariables</field>
     <statement name="STACK">
       <block type="variables_set" id="CYoT6-,BpEnq[_*jlQJI">
-        <field name="VAR">servoP0UpAngle</field>
+        <field name="VAR">servoP0UnloadAngle</field>
         <value name="VALUE">
           <shadow type="math_number" id="iO*c+sUAe_9OC_S5kep.">
             <field name="NUM">119</field>
@@ -167,7 +167,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="Oiotb^Eo@Bk!^xGj:NWM" x="0" y="431">
+  <block type="procedures_defnoreturn" id="Oiotb^Eo@Bk!^xGj:NWM" x="0" y="457">
     <field name="NAME">initMotors</field>
     <statement name="STACK">
       <block type="ai_motor_setup" id="+8HFj3C$OV|wy^mwOArL">
@@ -217,7 +217,7 @@
                                     <field name="NUM">0</field>
                                   </shadow>
                                   <block type="variables_get" id="0uf#4O3?/0GVlP=K{lqD">
-                                    <field name="VAR">servoP0UpAngle</field>
+                                    <field name="VAR">servoP0DownAngle</field>
                                   </block>
                                 </value>
                                 <next>
@@ -228,44 +228,9 @@
                                         <field name="NUM">103</field>
                                       </shadow>
                                       <block type="variables_get" id="A!NJx-AI[:4=x}G[c+X-">
-                                        <field name="VAR">servoP1DownAngle</field>
+                                        <field name="VAR">servoP1UpAngle</field>
                                       </block>
                                     </value>
-                                    <next>
-                                      <block type="time_delay" id="zjq;}O%D|OB-8`C0OrDL">
-                                        <value name="DELAY_TIME_MILI">
-                                          <block type="math_number" id="AT/UTKNa5ljGE8)oa/gk">
-                                            <field name="NUM">500</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="extension_servo_write_on_ai" id="^!IloqgS*r4*4Ut%,K,R">
-                                            <field name="gpio">P0</field>
-                                            <value name="degree">
-                                              <shadow type="math_number" id="#0eK$ncw/7l]GK?0ezH@">
-                                                <field name="NUM">0</field>
-                                              </shadow>
-                                              <block type="variables_get" id="8:ThdLB)=`:_RZdn73s@">
-                                                <field name="VAR">servoP0DownAngle</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="extension_servo_write_on_ai" id="o9D@Gqs5s+|Zy4jg{oOD">
-                                                <field name="gpio">P1</field>
-                                                <value name="degree">
-                                                  <shadow type="math_number" id="!_y%nu,4b-5-PT[V@C!r">
-                                                    <field name="NUM">103</field>
-                                                  </shadow>
-                                                  <block type="variables_get" id="p_SIjW[wsXFg4-kp/{#C">
-                                                    <field name="VAR">servoP1UpAngle</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -283,7 +248,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="KtW)lU5S*q6X^$t)($G6" x="0" y="981">
+  <block type="procedures_defnoreturn" id="KtW)lU5S*q6X^$t)($G6" x="0" y="896">
     <field name="NAME">moveFront</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="b}/uQ:;cDjLQz(wNdxnN">
@@ -342,7 +307,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="SO^Hfu@#,},c4xM^:.;]" x="0" y="1196">
+  <block type="procedures_defnoreturn" id="SO^Hfu@#,},c4xM^:.;]" x="0" y="1111">
     <field name="NAME">stopMoving</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="a*L$6QhER^o(:s-ANCje">
@@ -389,7 +354,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="$-nV^--AL|{n:%eXb_6P" x="0" y="1411">
+  <block type="procedures_defnoreturn" id="$-nV^--AL|{n:%eXb_6P" x="0" y="1326">
     <field name="NAME">moveBack</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="?2BC3H=rH=I[mbc746(^">
@@ -448,7 +413,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="aqzve%j)_}F3CfsH6W2Q" x="0" y="1626">
+  <block type="procedures_defnoreturn" id="aqzve%j)_}F3CfsH6W2Q" x="0" y="1541">
     <field name="NAME">turnLeft</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="cJxc5p)xr;9h^D|?NF#Y">
@@ -559,7 +524,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="E$gW=)qU#C(Ow|Zgt~+b" x="0" y="1885">
+  <block type="procedures_defnoreturn" id="E$gW=)qU#C(Ow|Zgt~+b" x="0" y="1800">
     <field name="NAME">turnRight</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="^hQ/*S.T)e.dt_iRbL(g">
@@ -670,7 +635,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="M9`L^VgV~=HX]}-it{){" x="0" y="2144">
+  <block type="procedures_defnoreturn" id="M9`L^VgV~=HX]}-it{){" x="0" y="2059">
     <field name="NAME">correctLeft</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="m#W4P%Z8P2=Zq+9*7ffQ">
@@ -729,7 +694,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")yy),86`7A,n7o^Jw`^[" x="0" y="2359">
+  <block type="procedures_defnoreturn" id=")yy),86`7A,n7o^Jw`^[" x="0" y="2274">
     <field name="NAME">correctRight</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="4$$*%S0CvX@XamUiqcYK">
@@ -788,7 +753,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="qK~[}pbIv;[JHe]tTXI8" x="0" y="2574">
+  <block type="procedures_defnoreturn" id="qK~[}pbIv;[JHe]tTXI8" x="0" y="2489">
     <field name="NAME">shiftLeft</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="?d=(-e{^NI%fb*0ULy(i">
@@ -847,7 +812,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="x_^wTQg^PCL22:%]U7s!" x="0" y="2789">
+  <block type="procedures_defnoreturn" id="x_^wTQg^PCL22:%]U7s!" x="0" y="2704">
     <field name="NAME">shiftRight</field>
     <statement name="STACK">
       <block type="ai_motor_run" id="3$6kCbNZI]SY6/UcP_Pb">
@@ -906,7 +871,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="~s5u{js`jy~wqabC5`f*" x="0" y="3004">
+  <block type="procedures_defnoreturn" id="~s5u{js`jy~wqabC5`f*" x="0" y="2919">
     <field name="NAME">doRescue</field>
     <statement name="STACK">
       <block type="controls_if" id="uBk~=~4h=rb7;_e,YEXz">
@@ -1145,7 +1110,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="z7xb0BFAbuRyYM)KHGcc" x="0" y="3726">
+  <block type="procedures_defnoreturn" id="z7xb0BFAbuRyYM)KHGcc" x="0" y="3641">
     <field name="NAME">doUnload</field>
     <statement name="STACK">
       <block type="procedures_callnoreturn" id="bXBmBteC_=X/9^hR+qg:">
@@ -1175,7 +1140,7 @@
                             <field name="NUM">79</field>
                           </shadow>
                           <block type="variables_get" id="+2x}v(@dF+#4,g[H0gU@">
-                            <field name="VAR">servoP0UpAngle</field>
+                            <field name="VAR">servoP0UnloadAngle</field>
                           </block>
                         </value>
                         <next>
@@ -1270,7 +1235,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="{SvsY1T0zT(oNF,-}(m`" x="0" y="4205">
+  <block type="procedures_defnoreturn" id="{SvsY1T0zT(oNF,-}(m`" x="0" y="4120">
     <field name="NAME">doSupply</field>
     <statement name="STACK">
       <block type="controls_if" id="F(33w%}aO0.VU}M!H|t*">
@@ -1631,7 +1596,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="5428">
+  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="5343">
     <field name="NAME">doDetection</field>
     <statement name="STACK">
       <block type="variables_set" id="R3Ldww6|n,3l$)d3VS)d">
@@ -2415,7 +2380,7 @@
       </block>
     </statement>
   </block>
-  <block type="ai_camera_init" id="ChhINcn]*U[8XO-1Bj,J" inline="true" x="0" y="7554">
+  <block type="ai_camera_init" id="ChhINcn]*U[8XO-1Bj,J" inline="true" x="0" y="7469">
     <next>
       <block type="ai_lcd_screeninit" id="Cf,Tt4!Qf@+5Ax^6`rc~" inline="true">
         <field name="isScreen">False</field>
