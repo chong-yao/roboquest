@@ -257,7 +257,7 @@
                                                     <field name="NUM">0</field>
                                                   </shadow>
                                                   <block type="variables_get" id="r@TZmOz2~2jfJ~2Z@K=n">
-                                                    <field name="VAR">servoP0DownAngle</field>
+                                                    <field name="VAR">servoP0UpAngle</field>
                                                   </block>
                                                 </value>
                                               </block>
