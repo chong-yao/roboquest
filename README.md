@@ -35,3 +35,6 @@ Gripangleopen = 89\
 Gripangleclose = 60\
 Shooteranglemax = 111\
 Shootermin = 17
+\
+Info:
+For speed = 125, time to turn 180 degrees is 3700ms
