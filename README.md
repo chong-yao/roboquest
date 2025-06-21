@@ -1,21 +1,21 @@
 # Roboquest
 
 T1\
-Cage (P0) max unload angle: 115 deg\
+Cage (P0) unload angle: 115 deg\
 Cage (P0) down angle: 26 deg\
-Hand (P1) max up angle: 60 deg\
+Hand (P1) vertical angle: 58 deg\
 Hand (P1) down angle: 0 deg\
 \
 T2\
-Cage (P0) max unload angle: 180 deg\
+Cage (P0) unload angle: 180 deg\
 Cage (P0) down angle: 78 deg\
-Hand (P1) max up angle:  89 deg\
+Hand (P1) vertical angle:  89 deg\
 Hand (P1) down angle:  37 deg\
 \
 T3\
-Cage (P0) max unload angle:  120 deg\
+Cage (P0) unload angle:  120 deg\
 Cage (P0) down angle:  26 deg\
-Hand (P1) max up angle:  58 deg\
+Hand (P1) vertical angle:  58 deg\
 Hand (P1) down angle:  8 deg\
 \
 M1\
