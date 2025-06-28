@@ -14,10 +14,10 @@ from maix import display
 
 def initVariables():
     global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, wait, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
-    servoP0UnloadAngle = 115
+    servoP0UnloadAngle = 120
     servoP0DownAngle = 26
-    servoP1UpAngle = 60
-    servoP1DownAngle = 0
+    servoP1UpAngle = 58
+    servoP1DownAngle = 8
     doWait = 0
     doTravel = "OPENED"
     currentPath = "SUPPLY"
