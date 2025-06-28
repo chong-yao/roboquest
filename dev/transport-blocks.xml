@@ -2821,7 +2821,7 @@
                             </value>
                             <statement name="DO3">
                               <block type="variables_set" id="_vepb(2-vZPF{F}QtpzA">
-                                <field name="VAR">wait</field>
+                                <field name="VAR">doWait</field>
                                 <value name="VALUE">
                                   <shadow type="math_number" id="PygjS4[fK-0vbm%HMTwh">
                                     <field name="NUM">0</field>
