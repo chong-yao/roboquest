@@ -281,6 +281,7 @@ def doSupply():
         time.sleep(1000 / 1000)
         for count in range(2):
             stopMoving()
+            time.sleep(100 / 1000)
             P1.position(servoP1UpAngle)
             moveFront()
             time.sleep(1000 / 1000)
