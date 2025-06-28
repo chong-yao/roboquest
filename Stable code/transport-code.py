@@ -401,7 +401,7 @@ def doDetection():
             boxes[boxesi].append(probs[boxesi])
     if (len(boxes)) and doDetect == 1:
         for i in (boxes):
-            imageDetection.draw_string((i[0]),(i[1]), (str(Yolo.labels[i[4][0]])), scale = 1, color = (255,0,0) , thickness = 1)
+            imageDetection.draw_string((i[0]),(i[1]), (str(Yolo.labels[i[4][0]])), scale = 2, color = (255,0,0) , thickness = 1)
             imageDetection.draw_rectangle((i[0]),(i[1]),(i[0]+i[2]), (i[1]+i[3]), color=(255,0,0), thickness=1)
             if (Yolo.labels[i[4][0]]) == "Supply_Station" and (i[0]) < 200:
                 vehicleLocation = "SUPPLY_STATION"
