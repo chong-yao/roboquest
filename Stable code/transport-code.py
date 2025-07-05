@@ -410,6 +410,7 @@ def doDetection():
             elif (Yolo.labels[i[4][0]]) == "Clearing_Zone" and (i[1]) < 200:
                 vehicleLocation = "CLEARING_ZONE"
             elif (Yolo.labels[i[4][0]]) == "D":
+                time.sleep(2000 / 1000)
                 vehicleLocation = "RETURN"
                 doDetect = 0
             elif (Yolo.labels[i[4][0]]) == "A":
