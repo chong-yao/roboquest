@@ -2229,24 +2229,33 @@
                                       </block>
                                     </value>
                                     <statement name="DO3">
-                                      <block type="variables_set" id="CwR9wjT/z(5JCFW`ckCo">
-                                        <field name="VAR">vehicleLocation</field>
-                                        <value name="VALUE">
-                                          <shadow type="math_number" id="les`U*[7FDi(-zi,0u^Q">
-                                            <field name="NUM">0</field>
-                                          </shadow>
-                                          <block type="text" id="$42!kC{AE^5!z51C02;,">
-                                            <field name="TEXT">RETURN</field>
+                                      <block type="time_delay" id="5gpYZExu[(Sw[xC`%N%O">
+                                        <value name="DELAY_TIME_MILI">
+                                          <block type="math_number" id="KL9T,PD15@m_7Pocj:u0">
+                                            <field name="NUM">2000</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="variables_set" id="GI-lfM6TK+`![l1L1v4k">
-                                            <field name="VAR">doDetect</field>
+                                          <block type="variables_set" id="CwR9wjT/z(5JCFW`ckCo">
+                                            <field name="VAR">vehicleLocation</field>
                                             <value name="VALUE">
-                                              <shadow type="math_number" id="|^X-E]3W#A|nZR?QHK}x">
+                                              <shadow type="math_number" id="les`U*[7FDi(-zi,0u^Q">
                                                 <field name="NUM">0</field>
                                               </shadow>
+                                              <block type="text" id="$42!kC{AE^5!z51C02;,">
+                                                <field name="TEXT">RETURN</field>
+                                              </block>
                                             </value>
+                                            <next>
+                                              <block type="variables_set" id="GI-lfM6TK+`![l1L1v4k">
+                                                <field name="VAR">doDetect</field>
+                                                <value name="VALUE">
+                                                  <shadow type="math_number" id="|^X-E]3W#A|nZR?QHK}x">
+                                                    <field name="NUM">0</field>
+                                                  </shadow>
+                                                </value>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
