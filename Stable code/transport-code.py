@@ -13,7 +13,7 @@ import os
 from maix import display
 
 def initVariables():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     servoP0UnloadAngle = 120
     servoP0DownAngle = 26
     servoP1UpAngle = 58
@@ -23,6 +23,8 @@ def initVariables():
     currentPath = "SUPPLY"
     junctionCount = 0
     movementSpeed = 125
+    my_90deg = 1850
+    my_180deg = 3700
     correctionSpeed = 60
     vehicleLocation = ""
     containerFilled = "EMPTY"
@@ -35,7 +37,7 @@ D = extDcMotor("D")
 E = extDcMotor("E")
 F = extDcMotor("F")
 def stopMoving():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(0)
     D.speedControl(0)
     E.speedControl(0)
@@ -43,56 +45,56 @@ def stopMoving():
     time.sleep(25 / 1000)
 
 def moveFront():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(-movementSpeed)
     D.speedControl(-movementSpeed)
     E.speedControl(-movementSpeed)
     F.speedControl(-movementSpeed)
 
 def moveBack():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(movementSpeed)
     D.speedControl(movementSpeed)
     E.speedControl(movementSpeed)
     F.speedControl(movementSpeed)
 
 def turnLeft():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(-(movementSpeed - 35))
     D.speedControl(-(movementSpeed - 40))
     E.speedControl((movementSpeed - 40))
     F.speedControl((movementSpeed - 35))
 
 def turnRight():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl((movementSpeed - 35))
     D.speedControl((movementSpeed - 40))
     E.speedControl(-(movementSpeed - 40))
     F.speedControl(-(movementSpeed - 35))
 
 def correctLeft():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(-correctionSpeed)
     D.speedControl(-correctionSpeed)
     E.speedControl(correctionSpeed)
     F.speedControl(correctionSpeed)
 
 def correctRight():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(correctionSpeed)
     D.speedControl(correctionSpeed)
     E.speedControl(-correctionSpeed)
     F.speedControl(-correctionSpeed)
 
 def shiftLeft():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(-movementSpeed)
     D.speedControl(movementSpeed)
     E.speedControl(-movementSpeed)
     F.speedControl(movementSpeed)
 
 def shiftRight():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     C.speedControl(movementSpeed)
     D.speedControl(-movementSpeed)
     E.speedControl(movementSpeed)
@@ -211,18 +213,18 @@ class extServo(PCA9685):
 P0 = extServo(0)
 P1 = extServo(1)
 def initMotors():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     stopMoving()
     P0.position(servoP0DownAngle)
     P1.position(servoP1UpAngle)
 
 def doRescue():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     if junctionCount == 1 or junctionCount == 2 or junctionCount == 4 or junctionCount == 5:
         moveFront()
         time.sleep(225 / 1000)
         turnRight()
-        time.sleep(1850 / 1000)
+        time.sleep(my_90deg / 1000)
         doTravel = "CLOSED"
         doDetect = 0
         if junctionCount == 5:
@@ -237,7 +239,7 @@ def doRescue():
         doDetect = 1
 
 def doUnload():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     moveFront()
     time.sleep(250 / 1000)
     shiftLeft()
@@ -255,19 +257,19 @@ def doUnload():
     vehicleCommand = ""
 
 def doSupply():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     if junctionCount <= 1:
         moveFront()
         time.sleep(225 / 1000)
         turnLeft()
-        time.sleep(1850 / 1000)
+        time.sleep(my_90deg / 1000)
         doTravel = "CLOSED"
         doDetect = 0
     elif junctionCount == 5:
         moveFront()
         time.sleep(225 / 1000)
         turnRight()
-        time.sleep(1850 / 1000)
+        time.sleep(my_90deg / 1000)
         doTravel = "CLOSED"
         doDetect = 1
     elif junctionCount == 2 or junctionCount == 4:
@@ -295,18 +297,18 @@ def doSupply():
         shiftRight()
         time.sleep(150 / 1000)
         turnRight()
-        time.sleep(3700 / 1000)
+        time.sleep(my_180deg / 1000)
         P1.position(servoP1UpAngle)
         doTravel = "CLOSED"
         containerFilled = "FILLED"
 
 def doObstacle():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     if junctionCount == 1 or junctionCount == 2:
         moveFront()
         time.sleep(225 / 1000)
         turnRight()
-        time.sleep(1850 / 1000)
+        time.sleep(my_90deg / 1000)
         doTravel = "CLOSED"
         doDetect = 0
     elif junctionCount == 3:
@@ -321,7 +323,7 @@ def doObstacle():
         moveFront()
         time.sleep(225 / 1000)
         turnLeft()
-        time.sleep(1850 / 1000)
+        time.sleep(my_90deg / 1000)
         doTravel = "CLOSED"
         doDetect = 1
 
@@ -391,7 +393,7 @@ def v831_display_show_imageDetection(displayShow):
 
 
 def doDetection():
-    global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
+    global my_180deg, my_90deg, _imageDetection_x, _imageDetection_y, _PWN_gpio_1, _PWN_gpio_2, containerFilled, correctionSpeed, count, currentPath, doDetect, doTravel, doWait, i, imageDetection, junctionCount, lineFollowThreshold, movementSpeed, ScreenOrientation, servoP0DownAngle, servoP0UnloadAngle, servoP1DownAngle, servoP1UpAngle, SETHMIRROT, SETVFLIP, vehicleCommand, vehicleLocation
     imageDetection = getLcdRotation(camera.capture())
     imageDetection = imageDetection.crop(48, 8,224, 224)
     out = Yolo.model.forward(imageDetection, quantize=True, layout="hwc")
@@ -432,7 +434,7 @@ def doDetection():
             else:
                 doUnload()
                 turnLeft()
-                time.sleep(3700 / 1000)
+                time.sleep(my_180deg / 1000)
                 doTravel = "CLOSED"
                 currentPath = "SUPPLY"
         elif vehicleLocation == "RESCUE_STATION" and currentPath == "RESCUE" and containerFilled == "FILLED":
@@ -442,7 +444,7 @@ def doDetection():
             elif vehicleCommand == "GO_COLLECT":
                 doUnload()
                 turnLeft()
-                time.sleep(3700 / 1000)
+                time.sleep(my_180deg / 1000)
                 doTravel = "CLOSED"
                 currentPath = "SUPPLY"
             else:
@@ -461,7 +463,7 @@ def doDetection():
                 containerFilled = "FILLED"
                 doTravel = "CLOSED"
                 turnRight()
-                time.sleep(3700 / 1000)
+                time.sleep(my_180deg / 1000)
     _imageDetection_x, _imageDetection_y = 48,8
     v831_display_show_imageDetection(imageDetection)
 
