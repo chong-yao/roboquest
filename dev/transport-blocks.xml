@@ -84,7 +84,7 @@
                                             <field name="VAR">90deg</field>
                                             <value name="VALUE">
                                               <shadow type="math_number" id=";Jf/{_N*z8U:2Odw$hcR">
-                                                <field name="NUM">1850</field>
+                                                <field name="NUM">2080</field>
                                               </shadow>
                                             </value>
                                             <next>
@@ -92,7 +92,7 @@
                                                 <field name="VAR">180deg</field>
                                                 <value name="VALUE">
                                                   <shadow type="math_number" id="VX((LzLbxI-_t7WpmM3P">
-                                                    <field name="NUM">3700</field>
+                                                    <field name="NUM">4160</field>
                                                   </shadow>
                                                 </value>
                                                 <next>
