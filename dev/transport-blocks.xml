@@ -433,7 +433,7 @@
                     </value>
                     <value name="B">
                       <shadow type="math_number" id="0RUX8p(,+cQcwW~)JeS8">
-                        <field name="NUM">0.4</field>
+                        <field name="NUM">0.3</field>
                       </shadow>
                     </value>
                   </block>
@@ -458,7 +458,7 @@
                         </value>
                         <value name="B">
                           <shadow type="math_number" id=")FK1x*tm/J@kNo3umgw_">
-                            <field name="NUM">0.4</field>
+                            <field name="NUM">0.3</field>
                           </shadow>
                         </value>
                       </block>
@@ -494,7 +494,7 @@
             </value>
             <value name="B">
               <shadow type="math_number" id="vMC=V^6AQEBa^Eox0N5]">
-                <field name="NUM">0.4</field>
+                <field name="NUM">0.3</field>
               </shadow>
             </value>
           </block>
@@ -519,7 +519,7 @@
                 </value>
                 <value name="B">
                   <shadow type="math_number" id="-Jt|ujyu=G!)l6/nRm5}">
-                    <field name="NUM">0.4</field>
+                    <field name="NUM">0.3</field>
                   </shadow>
                 </value>
               </block>
