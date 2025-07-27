@@ -1,3 +1,6 @@
+import serial
+SERIAL = serial.Serial("/dev/ttyS1",115200)
+
 import smbus2
 import time
 import sys
@@ -9,17 +12,15 @@ del iic_slaver
 from CocoPi import dcMotor
 from CocoPi import extDcMotor
 from CocoPi import multiFuncGpio
-import serial
-SERIAL = serial.Serial("/dev/ttyS1",115200)
 
 def initVariables():
     global shootingState, shootingSpeed, shooterAngleMin, shooterAngle, shooterAngleMax, rcCommand, rcData, movementSpeed, gripAngleClose, gripAngleOpen, clawAngleReset, clawAngle, clawAngleMin, clawAngleMax
     clawAngleReset = 90
-    clawAngleMax = 140
-    clawAngleMin = 0
+    clawAngleMax = 150
+    clawAngleMin = 10
     clawAngle = clawAngleReset
-    gripAngleOpen = 100
-    gripAngleClose = 75
+    gripAngleOpen = 120
+    gripAngleClose = 90
     movementSpeed = 100
     rcData = ""
     rcCommand = 100
@@ -28,6 +29,15 @@ def initVariables():
     shooterAngle = shooterAngleMin
     shootingSpeed = 250
     shootingState = 0
+
+def _read_serial_data(read_data,split, index):
+    if read_data != None:
+        read_str = ""
+        try:
+            read_str = str(read_data.decode("utf-8")).split(split)[index]
+        except:
+            read_str = str(read_data).split(split)[index]
+        return read_str
 
 M2 = dcMotor(2)
 C = extDcMotor("C")
@@ -170,7 +180,12 @@ def stopMoving():
 
 def moveClawDown():
     global shootingState, shootingSpeed, shooterAngleMin, shooterAngle, shooterAngleMax, rcCommand, rcData, movementSpeed, gripAngleClose, gripAngleOpen, clawAngleReset, clawAngle, clawAngleMin, clawAngleMax
-    P1.position(clawAngleMin)
+    if clawAngle > clawAngleMin:
+        clawAngle = clawAngle + -10
+    else:
+        clawAngle = clawAngleMin
+    P1.position(clawAngle)
+    time.sleep(50 / 1000)
 
 def moveShooterUp():
     global shootingState, shootingSpeed, shooterAngleMin, shooterAngle, shooterAngleMax, rcCommand, rcData, movementSpeed, gripAngleClose, gripAngleOpen, clawAngleReset, clawAngle, clawAngleMin, clawAngleMax
@@ -190,7 +205,12 @@ def moveFront():
 
 def moveClawUp():
     global shootingState, shootingSpeed, shooterAngleMin, shooterAngle, shooterAngleMax, rcCommand, rcData, movementSpeed, gripAngleClose, gripAngleOpen, clawAngleReset, clawAngle, clawAngleMin, clawAngleMax
-    P1.position(clawAngleMax)
+    if clawAngle < clawAngleMax:
+        clawAngle = clawAngle + 10
+    else:
+        clawAngle = clawAngleMax
+    P1.position(clawAngle)
+    time.sleep(50 / 1000)
 
 def moveShooterDown():
     global shootingState, shootingSpeed, shooterAngleMin, shooterAngle, shooterAngleMax, rcCommand, rcData, movementSpeed, gripAngleClose, gripAngleOpen, clawAngleReset, clawAngle, clawAngleMin, clawAngleMax
@@ -267,15 +287,6 @@ def resetShooterClaw():
     P0.position(shooterAngleMin)
     closeClaw()
 
-def _read_serial_data(read_data,split, index):
-    if read_data != None:
-        read_str = ""
-        try:
-            read_str = str(read_data.decode("utf-8")).split(split)[index]
-        except:
-            read_str = str(read_data).split(split)[index]
-        return read_str
-
 
 
 initVariables()
@@ -284,8 +295,6 @@ while True:
     SERIAL.flushInput()
     try:
         rcData = _read_serial_data(SERIAL.readline().decode("UTF-8","ignore").strip(),"|",1)
-        if rcData != None:
-            print((str("Input: ") + str(rcData)))
     except:
         pass
     rcCommand = rcData.split(",")
