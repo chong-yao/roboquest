@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml" type="IoT">
-  <block type="procedures_defnoreturn" id="y~JPeCz}wD;wrXMe,A]n" collapsed="true" x="-948" y="-1410">
+  <block type="procedures_defnoreturn" id="y~JPeCz}wD;wrXMe,A]n" x="-948" y="-1410">
     <field name="NAME">initVariables</field>
     <statement name="STACK">
       <block type="variables_set" id="Du.5#5lG3y*cWJ;Rc[=D">
@@ -22,7 +22,7 @@
                 <field name="VAR">clawAngleMin</field>
                 <value name="VALUE">
                   <shadow type="math_number" id="_.eD76cQY!AMqmPQEf,I">
-                    <field name="NUM">10</field>
+                    <field name="NUM">5</field>
                   </shadow>
                 </value>
                 <next>
@@ -41,7 +41,7 @@
                         <field name="VAR">gripAngleOpen</field>
                         <value name="VALUE">
                           <shadow type="math_number" id="N(DY(/9Cof;Tb/|NeG{-">
-                            <field name="NUM">120</field>
+                            <field name="NUM">110</field>
                           </shadow>
                         </value>
                         <next>
@@ -49,7 +49,7 @@
                             <field name="VAR">gripAngleClose</field>
                             <value name="VALUE">
                               <shadow type="math_number" id="7n=`ol9/0xP0F#JV!8.m">
-                                <field name="NUM">90</field>
+                                <field name="NUM">75</field>
                               </shadow>
                             </value>
                             <next>
@@ -57,7 +57,7 @@
                                 <field name="VAR">movementSpeed</field>
                                 <value name="VALUE">
                                   <shadow type="math_number" id="ktvzUO}oaDm]jwfe?;N6">
-                                    <field name="NUM">100</field>
+                                    <field name="NUM">180</field>
                                   </shadow>
                                 </value>
                                 <next>
@@ -84,7 +84,7 @@
                                             <field name="VAR">shooterAngleMax</field>
                                             <value name="VALUE">
                                               <shadow type="math_number" id="5J^oRKQEm@Dz16qJ!rQI">
-                                                <field name="NUM">70</field>
+                                                <field name="NUM">111</field>
                                               </shadow>
                                             </value>
                                             <next>
@@ -92,7 +92,7 @@
                                                 <field name="VAR">shooterAngleMin</field>
                                                 <value name="VALUE">
                                                   <shadow type="math_number" id="ZUpoJLR,dx7DjC^i2L}a">
-                                                    <field name="NUM">0</field>
+                                                    <field name="NUM">17</field>
                                                   </shadow>
                                                 </value>
                                                 <next>
@@ -1523,6 +1523,22 @@
           <shadow type="math_number" id="Kx9qCRG/4Y|g*?QhPLk-">
             <field name="NUM">60</field>
           </shadow>
+          <block type="math_arithmetic" id="F%XFh|srAXD-.yM!T{Fp">
+            <field name="OP">MULTIPLY</field>
+            <value name="A">
+              <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                <field name="NUM">1</field>
+              </shadow>
+              <block type="variables_get" id="{k[Gd!b^Wg(XfDBJAg1k">
+                <field name="VAR">movementSpeed</field>
+              </block>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="3SbLaBtM7kh#Q0L16T/a">
+                <field name="NUM">0.9</field>
+              </shadow>
+            </value>
+          </block>
         </value>
         <next>
           <block type="ai_motor_run" id="_.EByVSOo*$`I-WT{^Xw">
@@ -1532,6 +1548,22 @@
               <shadow type="math_number" id="swKCZYScmW[r13lV.UA)">
                 <field name="NUM">60</field>
               </shadow>
+              <block type="math_arithmetic" id="^c(8lfCVMfXl%gQyuo{a">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="*{TM^BDoSF,bdI|`JXy_">
+                    <field name="VAR">movementSpeed</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id=";SSa.$HlJDVH@MlH=T-0">
+                    <field name="NUM">0.9</field>
+                  </shadow>
+                </value>
+              </block>
             </value>
             <next>
               <block type="ai_motor_run" id="^b,bDCjD80?FeL)OjIhB">
@@ -1541,6 +1573,22 @@
                   <shadow type="math_number" id="AjZhiU=]W_nK1Q*{:!ef">
                     <field name="NUM">60</field>
                   </shadow>
+                  <block type="math_arithmetic" id="!N`p}(U]QBg4YCRBB20b">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="variables_get" id="/^8z)guQbncywere9PEF">
+                        <field name="VAR">movementSpeed</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <shadow type="math_number" id="GG/Aa,7kO5t5~yJ:%q;V">
+                        <field name="NUM">0.9</field>
+                      </shadow>
+                    </value>
+                  </block>
                 </value>
                 <next>
                   <block type="ai_motor_run" id="K+xe#Uu{]qXx1*4yZWZZ">
@@ -1550,6 +1598,22 @@
                       <shadow type="math_number" id="-qXzQV#hv+K}Nt-,mO69">
                         <field name="NUM">60</field>
                       </shadow>
+                      <block type="math_arithmetic" id=".o+I.SXiv1G}yTN~.%]4">
+                        <field name="OP">MULTIPLY</field>
+                        <value name="A">
+                          <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                            <field name="NUM">1</field>
+                          </shadow>
+                          <block type="variables_get" id="Mn|)khyFjE9k];*9)Ee;">
+                            <field name="VAR">movementSpeed</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <shadow type="math_number" id="{5d5Eq=*`K{cynX6(qMa">
+                            <field name="NUM">0.9</field>
+                          </shadow>
+                        </value>
+                      </block>
                     </value>
                   </block>
                 </next>
@@ -1636,6 +1700,22 @@
           <shadow type="math_number" id="4v|eU*4-7x//`R:CIn`:">
             <field name="NUM">60</field>
           </shadow>
+          <block type="math_arithmetic" id="j+2aIDK?[?Cj7$S*bd7%">
+            <field name="OP">MULTIPLY</field>
+            <value name="A">
+              <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                <field name="NUM">1</field>
+              </shadow>
+              <block type="variables_get" id="9s_y^w_7xhZ6DukIw*0X">
+                <field name="VAR">movementSpeed</field>
+              </block>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="[*T35z@unrLTih!guThJ">
+                <field name="NUM">0.9</field>
+              </shadow>
+            </value>
+          </block>
         </value>
         <next>
           <block type="ai_motor_run" id="#L?wDvs)M64TUcF!^bk)">
@@ -1645,6 +1725,22 @@
               <shadow type="math_number" id="y:Cd.3~WYn]e#-MsPgu]">
                 <field name="NUM">60</field>
               </shadow>
+              <block type="math_arithmetic" id="T~7rxYu~SDYu,hZu7FqZ">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="87JIF[ng%avGSu^CdQ}J">
+                    <field name="VAR">movementSpeed</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="3P=x-(PxT}I,YGlXQHF|">
+                    <field name="NUM">0.9</field>
+                  </shadow>
+                </value>
+              </block>
             </value>
             <next>
               <block type="ai_motor_run" id="r]R/%Pv|C0sc@%nR3*u%">
@@ -1654,6 +1750,22 @@
                   <shadow type="math_number" id="K}B51COLUf|~_z6%zS/^">
                     <field name="NUM">60</field>
                   </shadow>
+                  <block type="math_arithmetic" id="-k8{f;^tyOC9_znUev9_">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="variables_get" id="!Ud%fLurO5K+}sm0)Vh8">
+                        <field name="VAR">movementSpeed</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <shadow type="math_number" id="ppC9c=uPctJ}i!$.FnA;">
+                        <field name="NUM">0.9</field>
+                      </shadow>
+                    </value>
+                  </block>
                 </value>
                 <next>
                   <block type="ai_motor_run" id="z`gV3C@(|7gb9SDs.fu9">
@@ -1663,6 +1775,22 @@
                       <shadow type="math_number" id="ukoHqBLdM3bs3m+NCGmF">
                         <field name="NUM">60</field>
                       </shadow>
+                      <block type="math_arithmetic" id="KT2mx1u:898C=a1?9fyQ">
+                        <field name="OP">MULTIPLY</field>
+                        <value name="A">
+                          <shadow type="math_number" id="?L58O6QBI(e/~BF,am/q">
+                            <field name="NUM">1</field>
+                          </shadow>
+                          <block type="variables_get" id="r5:)$sI0)1!rwGRq@}TV">
+                            <field name="VAR">movementSpeed</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <shadow type="math_number" id="d25YxEg;6MtYr+m3*LPg">
+                            <field name="NUM">0.9</field>
+                          </shadow>
+                        </value>
+                      </block>
                     </value>
                   </block>
                 </next>
