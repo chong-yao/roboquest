@@ -39,9 +39,9 @@ Shootermin = 17\
 Info:\
 For speed = 125, time to turn 180 degrees is 3700ms
 
-![alt text](ROBOQUEST-poster.png)
+---
 
-## Transport robot code documentation by Gemini 2.5 Pro:
+## transport-code documentation by Gemini 2.5 Pro:
 
 ### **Project Overview and Purpose**
 
