@@ -1,0 +1,25 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>photo_1970118256.jpg</filename>
+	<path>/my-project-name/photo_1970118256.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Rescue_Station</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>45</ymin>
+			<xmax>269</xmax>
+			<ymax>149</ymax>
+		</bndbox>
+	</object>
+</annotation>

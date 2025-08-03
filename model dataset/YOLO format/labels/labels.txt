@@ -1,0 +1,7 @@
+B
+A
+C
+D
+Supply_Station
+Clearing_Zone
+Rescue_Station
