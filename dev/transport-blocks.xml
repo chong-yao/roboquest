@@ -1213,7 +1213,7 @@
           <block type="time_delay" id="~M:}7av3uLzE~=Vrq/9[">
             <value name="DELAY_TIME_MILI">
               <block type="math_number" id="Vh$xvFC!0|{eIk9`~o4L">
-                <field name="NUM">250</field>
+                <field name="NUM">1000</field>
               </block>
             </value>
             <next>
@@ -3081,7 +3081,7 @@
   <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9290">
     <mutation name="initVariables"></mutation>
     <next>
-      <block type="procedures_callnoreturn" id="+wX=JZ-5!^jEV4e[x9Kc">
+      <block type="procedures_callnoreturn" id="bdew1U8{t.,1BMT7!7JV">
         <mutation name="initMotors"></mutation>
         <next>
           <block type="ai_model_customized_init_setup" id="B/@~8R_+U;g`-TvztpH?" inline="false">
