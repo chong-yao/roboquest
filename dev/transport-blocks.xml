@@ -1685,15 +1685,15 @@
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="time_delay" id="jVzH8q,q%waFQBFRv;7R">
-                                                    <value name="DELAY_TIME_MILI">
-                                                      <block type="math_number" id="zLe(^PU-yjpA9vzaafvK">
-                                                        <field name="NUM">250</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="procedures_callnoreturn" id="yy(XNjT{6cz$crCJG0+v">
+                                                    <mutation name="shiftLeft"></mutation>
                                                     <next>
-                                                      <block type="procedures_callnoreturn" id="yy(XNjT{6cz$crCJG0+v">
-                                                        <mutation name="shiftLeft"></mutation>
+                                                      <block type="time_delay" id="jVzH8q,q%waFQBFRv;7R">
+                                                        <value name="DELAY_TIME_MILI">
+                                                          <block type="math_number" id="zLe(^PU-yjpA9vzaafvK">
+                                                            <field name="NUM">250</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
                                                           <block type="extension_servo_write_on_ai" id="E@Hwx|lD2@|W+^/%2w8t">
                                                             <field name="gpio">P1</field>
@@ -1760,7 +1760,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="#-{7uSoZQ:qS|*~}Br`y" x="0" y="5645">
+  <block type="procedures_defnoreturn" id="#-{7uSoZQ:qS|*~}Br`y" x="0" y="5707">
     <field name="NAME">doObstacle</field>
     <statement name="STACK">
       <block type="controls_if" id="OqlLTTbgX$n0P,HZ15%T">
@@ -1996,7 +1996,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="6433">
+  <block type="procedures_defnoreturn" id=")NY^.SVH39GN9:No#P7M" x="0" y="6495">
     <field name="NAME">doDetection</field>
     <statement name="STACK">
       <block type="variables_set" id="R3Ldww6|n,3l$)d3VS)d">
@@ -3092,7 +3092,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9290">
+  <block type="procedures_callnoreturn" id="2vWH1Mk,9WdGB,Mmg($#" x="0" y="9352">
     <mutation name="initVariables"></mutation>
     <next>
       <block type="procedures_callnoreturn" id="bdew1U8{t.,1BMT7!7JV">
