@@ -14,17 +14,17 @@ from maix import display
 
 def initVariables():
     global doDetect, lineFollowThreshold, vehicleCommand, containerFilled, vehicleLocation, correctionSpeed, my_180deg, my_90deg, movementSpeed, junctionCount, currentPath, doTravel, doWait, servoP1DownAngle, servoP1UpAngle, servoP0DownAngle, servoP0UnloadAngle, imageDetection, i, count, _imageDetection_x, _imageDetection_y, SETVFLIP, SETHMIRROT, ScreenOrientation, _PWN_gpio_1, _PWN_gpio_2
-    servoP0UnloadAngle = 100
-    servoP0DownAngle = 0
-    servoP1UpAngle = 46
-    servoP1DownAngle = 8
+    servoP0UnloadAngle = 110
+    servoP0DownAngle = 13
+    servoP1UpAngle = 110
+    servoP1DownAngle = 55
     doWait = 0
     doTravel = "OPENED"
     currentPath = "SUPPLY"
     junctionCount = 0
-    movementSpeed = 125
-    my_90deg = 1700
-    my_180deg = 3600
+    movementSpeed = 135
+    my_90deg = 1500
+    my_180deg = 3000
     correctionSpeed = 55
     vehicleLocation = ""
     containerFilled = "EMPTY"
@@ -296,6 +296,8 @@ def doSupply():
         time.sleep(400 / 1000)
         turnRight()
         time.sleep(my_180deg / 1000)
+        shiftLeft()
+        time.sleep(250 / 1000)
         P1.position(servoP1UpAngle)
         doTravel = "CLOSED"
         containerFilled = "FILLED"
